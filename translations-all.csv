@@ -1,192 +1,188 @@
 EN,TH
-Tools,เครื่องมือ
-Price Alerts,แจ้งเตือน
-Watchlist,ติดตาม
-Compare,เปรียบเทียบ
+Discover,สำรวจ
 ,
-Price Alerts,แจ้งเตือนราคา
-NAV/Unit,NAV/หน่วย
-No Price Alerts Yet,ยังไม่มีการแจ้งเตือนราคา
-- Set up alerts to stay informed when prices change.,ตั้งค่าการแจ้งเตือนเพื่อรับทราบข้อมูลเมื่อราคามีการเปลี่ยนแปลง
-Create Alert,สร้างการแจ้งเตือน
-Fund Code,กองทุน
-Current,ราคาปัจจุบัน
-Target,ราคาเป้าหมาย
-THB,THB
-Recently Searched,การค้นหาล่าสุด
-From Your Portfolio and Saves,จากพอร์ตกองทุนและบันทึกของคุณ
-Set Price Alert,ตั้งค่าการแจ้งเตือนราคา
+"Search Funds, Allocated Stock, Investment...","ค้นหากองทุน, หุ้นที่กองทุนถืออยู่, ..."
+Fund List,กองทุน
+,
+Discover Funds,กองทุนที่น่าสนใจ
+Only You,สำหรับคุณ
+"fundii personalizes your investing journey and suggests fresh picks based on what you may like. The more you play, the smarter it gets. Time to swipe!",fundii รวมกองทุนที่เหมาะกับสไตล์การลงทุนของคุณโดยเฉพาะ พร้อมแนะนำตัวเลือกใหม่ๆ ที่น่าจะตรงใจคุณ ยิ่งใช้บ่อย เราก็ยิ่งรู้ใจคุณมากขึ้น พร้อมแล้วก็เริ่มปัดเลย!
+Best of One Month Returns,กองทุนมาแรงในรอบเดือนนี้
+Short-term winners of this month. See what’s trending now.,กองทุนดาวเด่นประจำเดือนนี้ ดูเลยว่าตัวไหนกำลังเป็นกระแส        
+Best in Class - 1 Month,ตัวท็อปในกลุ่ม (1M)
+"No matter your investment style, these top-performing funds have delivered the best returns in their class.",ไม่ว่าสไตล์การลงทุนของคุณจะเป็นแบบไหน กองทุนชั้นยอดเหล่านี้ได้สร้างผลตอบแทนที่ดีที่สุดในประเภทเดียวกัน
+Best of Three Year Returns,ผลตอบแทนเด่นระยะยาว (3Y)
+"These are the funds that shot for the moon and made it within the past three years–proving their strength, resilience, and growth potential.",กองทุนเหล่านี้มาแรงทะลุเป้าในช่วง 3 ปีที่ผ่านมา สะท้อนถึงความแข็งแกร่ง ความมั่นคง และศักยภาพในการเติบโต
+Swipe up,ปัดขึ้น
 """Fund Code""","""Fund Code"""
-THB xx.xxxx,THB xx.xxxx
-Alert me when NAV/Unit crosses,แจ้งเตือนเมื่อ NAV/หน่วย ถึงราคาที่กำหนด
-THB,THB
-NAV/Unit Change,%การเปลี่ยนแปลง
-0.00 % / +x.xx % / -x.xx %,0.00 % / +x.xx % / -x.xx %
-Done,เรียบร้อย
-All-time High,All-time High
-All-time Low,All-time Low
-52-Week High,52-Week High
-52-Week Low,52-Week Low
-JAN | FEB | MAR | APR | MAY | JUN | JUL | AUG | SEP | OCT | NOV | DEC,ม.ค. | ก.พ. | มี.ค. | เม.ย. | พ.ค. | มิ.ย. | ก.ค. | ส.ค. | ก.ย. | ต.ค. | พ.ย. | ธ.ค.
-YTD | 1W | 1M | 3M | 6M | 1Y | 3Y | 5Y | MAX,YTD | 1W | 1M | 3M | 6M | 1Y | 3Y | 5Y | MAX
-Set Alert,ตั้งค่าการแจ้งเตือน
-Alert set. We'll notify you at your target NAV/Unit.,ตั้งค่าการแจ้งเตือนแล้ว เราจะแจ้งให้คุณทราบเมื่อราคา NAV/หน่วย ถึงเป้าหมายของคุณ
-Target NAV/Unit,ราคาเป้าหมาย
-Edit Price Alert,แก้ไขการแจ้งเตือนราคา
-Delete,ลบ
-Save,บันทึก
-Delete 1 item | Delete ... items,ลบ ... รายการ
-Delete,ลบ
-Alert deleted,ลบการแจ้งเตือนแล้ว
-Error: Unable to save changes. Please try again.,เกิดข้อผิดพลาด: ไม่สามารถบันทึกได้ กรุณาลองใหม่อีกครั้ง
-,
-Watchlist,รายการติดตาม
-Funds,กองทุน
-Announcements,ข่าวสาร
-Time to Build Your Watchlist,ถึงเวลาสร้างรายการติดตามของคุณแล้ว
-Start adding funds you're interested in and keep aneye on their performance.,เริ่มเพิ่มกองทุนที่คุณสนใจและติดตามผลการดำเนินการของกองทุนนั้น
-No News Yet,ยังไม่มีข่าวสาร
-Stay tuned! Add funds to your watchlist or check back later for updated.,คอยติดตามไว้เลย! เพิ่มกองทุนลงในรายการติดตามของคุณหรือตรวจสอบอีกครั้งในภายหลังเมื่อมีการอัปเดต
-Add Fund,เพิ่มกองทุน
-"""Fund Code""","""Fund Code"""
-THB xx.xxxx,THB xx.xxxx
-JAN | FEB | MAR | APR | MAY | JUN | JUL | AUG | SEP | OCT | NOV | DEC,ม.ค. | ก.พ. | มี.ค. | เม.ย. | พ.ค. | มิ.ย. | ก.ค. | ส.ค. | ก.ย. | ต.ค. | พ.ย. | ธ.ค.
-Updated,อัปเดตล่าสุด
-Earlier,ก่อนหน้านี้
-"""AMC Code""","""AMC Code"""
-JAN | FEB | MAR | APR | MAY | JUN | JUL | AUG | SEP | OCT | NOV | DEC,ม.ค. | ก.พ. | มี.ค. | เม.ย. | พ.ค. | มิ.ย. | ก.ค. | ส.ค. | ก.ย. | ต.ค. | พ.ย. | ธ.ค.
-Edit,แก้ไข
-Settings,ตั้งค่า
-"""Fund Code"" added to Watchlist.","""Fund Code"" เพิ่มเข้ารายการติดตามแล้ว"
-Cancel,ยกเลิก
-Recently Searched,การค้นหาล่าสุด
-From Your Portfolio and Saves,จากพอร์ตกองทุนและบันทึกของคุณ
-"""Fund Code"" removed from Watchlist.","""Fund Code"" ลบออกจากรายการติดตามแล้ว"
-Edit,แก้ไข
-Save,บันทึก
-Delete 1 item | Delete ... items,ลบ ... รายการ
-Delete,ลบ
-Watchlist Settings,การตั้งค่าการติดตาม
-All Notification Topics,การแจ้งเตือนทั้งหมด
-Price Updates,อัปเดตราคา
-We'll notify you of any NAV/Unit updates for your watchlisted funds,เราจะแจ้งให้คุณทราบถึงการอัปเดต NAV/หน่วย ของกองทุนที่คุณติดตาม
-New Highs and Lows,จุดสูงสุดและจุดต่ำสุดใหม่ของราคา
-Stay updated on all-time and 52-week highs and lows at a glance,อัปเดตเมื่อราคากองทุนทำจุดสูงสุดและจุดต่ำสุดใหม่ในทุกช่วงเวลาที่เคยมีมา และในรอบ 52 สัปดาห์ล่าสุดอย่างรวดเร็ว
-Significant Price Change,การเปลี่ยนแปลงราคาอย่างมีนัยสำคัญ
-Fund Promotions,โปรโมชันกองทุน
-Announcements Updates,อัปเดตประกาศ
-You’ve reached the 30 fund watchlist limit.,คุณมีกองทุนที่ติดตามเกิน 30 กองทุนแล้ว
-,
-Compare,เปรียบเทียบ
-You have reached the 10 fund limit.,คุณมีกองทุนเกินกว่าที่กำหนด 10 กองทุนแล้ว
-No funds to Compare Yet,ยังไม่มีกองทุนทุนที่จะเปรียบเทียบ
-Add two or more funds to get started,เพิ่มสองกองทุนหรือมากกว่าเพื่อเริ่มต้น
-Add Fund,เพิ่มกองทุน
-VS,VS
-Summary,สรุป
-Data,ข้อมูล
-JAN | FEB | MAR | APR | MAY | JUN | JUL | AUG | SEP | OCT | NOV | DEC,ม.ค. | ก.พ. | มี.ค. | เม.ย. | พ.ค. | มิ.ย. | ก.ค. | ส.ค. | ก.ย. | ต.ค. | พ.ย. | ธ.ค.
-YTD | 1M | 3M | 6M | 1Y | 3Y | 5Y,YTD | 1M | 3M | 6M | 1Y | 3Y | 5Y
-JAN | FEB | MAR | APR | MAY | JUN | JUL | AUG | SEP | OCT | NOV | DEC,ม.ค. | ก.พ. | มี.ค. | เม.ย. | พ.ค. | มิ.ย. | ก.ค. | ส.ค. | ก.ย. | ต.ค. | พ.ย. | ธ.ค.
-YTD | 1M | 3M | 6M | 1Y | 3Y | 5Y,YTD | 1M | 3M | 6M | 1Y | 3Y | 5Y
-Recently Searched,การค้นหาล่าสุด
-From Your Portfolio and Saves,จากพอร์ตกองทุนและบันทึกของคุณ
-Compare List,เปรียบเทียบกองทุน
-Fund added,เพิ่มกองทุนแล้ว
-Add Fund,เพิ่มกองทุน
-Change,เปลี่ยน
-Compare 1 item | Compare ... items,เปรียบเทียบ ... กองทุน
-Fund Battle,เริ่มได้!
-Compare,เปรียบเทียบ
-Edit,แก้ไข
-Select All,เลือกทั้งหมด
-Clear All,ล้างทั้งหมด
-Delete 1 item | Delete ... items,ลบ 1 กองทุน
-Delete,ลบ
-Save,บันทึก
-Fund deleted,ลบกองทุนสำเร็จ
-Compare,เปรียบเทียบ
 Return,ผลตอบแทน
 Return/Risk,ผลตอบแทน/ความเสี่ยง
 Risk,ความเสี่ยง
 Transaction Fee,ค่าธรรมเนียมการทำธุรกรรม
 Preservation,การรักษาเงินต้น
-Understanding the Radar Chart,ทำความเข้าใจเรดาร์
-"A bigger shaded area means a better fund—higher returns, lower risk, stronger protection, and fewer costs",พื้นที่เงาที่ใหญ่กว่าหมายถึงกองทุนที่ดีกว่า — ให้ผลตอบแทนสูงกว่า ความเสี่ยงต่ำกว่า การรักษาเงินต้นได้ดีกว่า และมีค่าธรรมเนียมน้อยกว่า
-Components of the Radar Chart,องค์ประกอบของเรดาร์
-Return: How much money the fund has made over time. Higher is better!,ผลตอบแทน: กองทุนทำเงินได้มากแค่ไหนในช่วงเวลาใดเวลาหนึ่ง ยิ่งสูงยิ่งดี!
-Risk: How much the fund’s value goes up and down. Lower means steadier.,ความเสี่ยง: มูลค่าของกองทุนมีความผันผวนมากแค่ไหน ยิ่งต่ำยิ่งนิ่ง
-Return/Risk: How much profit the fund makes for each bit of risk. Higher is better.,ผลตอบแทนต่อความเสี่ยง: กองทุนสร้างกำไรได้มากแค่ไหนเมื่อเทียบกับความเสี่ยง ยิ่งสูงยิ่งดี
-Preservation: How well the fund protects your money in bad times. Better preservation means safer.,การรักษาเงินต้น: กองทุนสามารถปกป้องเงินของคุณในช่วงเวลาที่ตลาดแย่ได้ดีแค่ไหน การรักษาเงินต้นที่ดีหมายถึงความปลอดภัยที่มากขึ้น
-Transaction Fee: The cost of buying and selling the fund. Lower fees mean you keep more money!,ค่าธรรมเนียมการซื้อขาย: ค่าธรรมเนียมซื้อขายกองทุน ค่าธรรมเนียมยิ่งต่ำยิ่งดี!
-Refresh,รีเฟรชข้อมูล
-Summary,สรุป
+Region,ภูมิภาค
+Theme,ธีมการลงทุน
+Style,รูปแบบการลงทุน
+Strategy,กลยุทธ์การลงทุน
+Hedging Policy,นโยบายป้องกันความเสี่ยง
+Dividend,เงินปันผล
+NAV Line chart is not yet available for this fund.,ยังไม่มีกราฟราคาสำหรับกองทุนนี้
+Fund Summary,สรุปข้อมูลกองทุน
+Go to Fund Info,ไปที่ข้อมูลกองทุน
+You’ve reached the 100 card collection limit.,คุณมีกองทุนเกินกว่าที่กำหนด 100 กองทุนแล้ว
+Why didn't you like this summary?,ทำไมถึงไม่ชอบสรุปนี้?
+Unhelpful /Not relevant,ไม่มีประโยชน์/ ไม่เกี่ยวข้อง
+Incorrect summary,ข้อมูลไม่ถูกต้อง
+Tell us more,ช่วยบอกเรา
+What can we do better?,เราสามารถทำอะไรให้ดีขึ้นเพื่อคุณได้บ้าง?
+Tell us the reason you didn't like the AI Summary...,ช่วยบอกเหตุผลที่คุณไม่ชอบ AI Summary
+Submit,ส่ง
+Thanks for helping us improve! Your feedback means a lot to us.,ขอบคุณที่ช่วยเราพัฒนา! ความคิดเห็นของคุณมีความสำคัญสำหรับเรามาก
+Not Interested,ไม่สนใจ
+We’ll show you fewer funds like this.,เราจะแสดงกองทุนที่คล้ายกันให้คุณน้อยลง
+Image saved successfully.,บันทึกรูปภาพ สำเร็จแล้ว
+Link copied.,คัดลอกลิงก์ สำเร็จแล้ว
+Save image failed.,บันทึกรูปภาพ ไม่สำเร็จ
+Share with,แชร์โดย
+,
+Top Performing Categories,ธีมกองทุนที่กำลังมาแรง
+YTD,YTD
+1W,1W
+1M,1M
+3M,3M
+6M,6M
+1Y,1Y
+3Y,3Y
+5Y,5Y
+10Y,10Y
+Return,ผลตอบแทน
+,
+Explore by Stocks,ค้นหากองทุนจากหุ้นที่สนใจ
+More,ดูเพิ่มเติม
+Search for stock names or codes,ค้นหาชื่อหรือรหัสหุ้น
+Cancel,ยกเลิก
+Allocated Stock,หุ้น
 Master Fund,กองทุนหลัก
-Inception Date,วันที่จัดตั้งกองทุน
-AUM,มูลค่าทรัพย์สินสุทธิ
+Filters,ตัวกรอง
+,
+Top Total Return,กองทุนที่ให้ผลตอบแทนสูงสุด
+Fund,กองทุน
+Return (1Y),ผลตอบแทน (1Y)
+Top Net Flow,กองทุนที่มีเงินลงทุนสุทธิสูงสุด
+Fund,กองทุน
+Net Flow (1Y),เงินลงทุนสุทธิ (1Y)
+See All,ดูทั้งหมด
+Top Total Return,กองทุนที่ให้ผลตอบแทนสูงสุด
+Highlighting the funds with the best performance gains,ค้นหากองทุนด้วยผลตอบแทนที่ดีที่สุด
+Top Net Flow,กองทุนที่มีเงินลงทุนสุทธิมากที่สุด
+See where money's flowing to uncover market trends and investor sentiment.,ดูทิศทางการไหลของเงิน เพื่อจับสัญญาณตลาดและความเชื่อมั่นของนักลงทุน
+Unlock Smart Tools for Smarter Investing.,ปลดล็อกเครื่องมืออัจฉริยะ เพื่อการลงทุนที่ดีกว่าเดิม
+Create Profile,สร้างโปรไฟล์ของคุณเลย!
+,
+IPO,กองทุน IPO
+Top Holdings,สินทรัพย์หลักที่ลงทุน
+Min,เงินลงทุนขั้นต่ำ
+Expected Return (p.a.),ผลตอบแทนที่คาดหวัง (ต่อปี)
+,
+"Try searching for ""NVDA""","ลองค้นหาคำว่า ""NVDA"""
+Cancel,ยกเลิก
+Try our Stock Search,ค้นหาหุ้นที่สนใจได้ที่นี่เลย
+Search stock names or codes to find funds that contain those stocks,ค้นหาชื่อหรือรหัสหุ้น เพื่อดูว่ามีกองทุนไหนที่ลงทุนในหุ้นนั้นบ้าง
+Recently Searched,การค้นหาล่าสุด
+Delete History,ลบประวัติการค้นหา
+Delete Search History?,ลบประวัติการค้นหาหรือไม่
+This will permanently delete all search history.,การดำเนินการนี้จะลบประวัติการค้นหาทั้งหมดอย่างถาวร
+Cancel,ยกเลิก
+Delete,ลบ
+Show more,ดูเพิ่มเติม
+Show less,ดูน้อยลง
+Popular Searches,คำค้นหายอดนิยม
+Refresh,รีเฟรชข้อมูล
+We Couldn't Find Any Matches,ไม่พบผลลัพธ์การค้นหา กรุณาลองใหม่อีกครั้ง
+It looks like we couldn't find what you're searching for. Please try a different search term,ดูเหมือนว่าเราไม่พบสิ่งที่คุณกำลังค้นหา โปรดลองใช้คำค้นหาอื่น
+"""Fund Code""","""Fund Code"""
+Risk:,ความเสี่ยง:
+RMF,RMF
+SSF,SSF
+SSFX,SSFX
+ThaiESG,ThaiESG
+ThaiESGX,ThaiESGX
+LTF,LTF
+,
+Other,อื่นๆ
+See All,ดูทั้งหมด
+Allocated Stock,หุ้น
+Master Fund,กองทุนหลัก
+Filters,ตัวกรอง
+,
+Search,ค้นหา
+Compare,เปรียบเทียบ
+Price Alert,แจ้งเตือน
+Watchlist,ติดตาม
+Asset Class,ประเภทสินทรัพย์
+Geography,ภูมิศาสตร์
+Theme,ธีมการลงทุน
+Tax saving,สิทธิประโยชน์ทางภาษี
+AMC,บลจ.
+View: Total Return,ดู: ผลตอบแทนรวม
+View: Annualized Total Return,ดู: ผลตอบแทนรวมต่อปี
+View: Net Flow,ดู: เงินลงทุนสุทธิ
+View: Percent Allocated,ดู: สัดส่วนการลงทุน
+View Funds By,เลือกดูกองทุนตาม
+Total Return,ผลตอบแทนรวม
+Highlighting the funds with the best performance gains,รวมกองทุนที่ให้ผลตอบแทนโดดเด่นที่สุด
+Annualized Total Return,ผลตอบแทนรวมเฉลี่ยต่อปี
+Discover funds with impressive average yearly performance,รวมกองทุนที่ทำผลตอบแทนเฉลี่ยต่อปีได้อย่างน่าประทับใจ
+Net Flow,เงินลงทุนสุทธิ
+See where money's flowing to uncover market trends and investor sentiment.,ดูทิศทางการไหลของเงิน เพื่อจับสัญญาณตลาดและความเชื่อมั่นของนักลงทุน
+Percent Allocated,สัดส่วนการลงทุน (%)
+See the percentage of each mutual fund invested in a specific stock for a clearer view of its holdings.,ดูสัดส่วนหุ้นที่แต่ละกองทุนถือครองอยู่ เพื่อเข้าใจภาพรวมของการถือครองได้ชัดเจนยิ่งขึ้น
+New,ใหม่
+Unlock Smart Tools for Smarter Investing.,ปลดล็อกเครื่องมืออัจฉริยะ เพื่อการลงทุนที่ดีกว่าเดิม
+Create a profile now to get unlimited access to powerful features.,สร้างโปรไฟล์ตอนนี้ เพื่อใช้งานทุกฟีเจอร์ได้แบบไม่จำกัด
+Create Profile,สร้างโปรไฟล์ของคุณเลย!
+Try our Stock Search,ค้นหาหุ้นที่สนใจได้ที่นี่เลย
+Search stock names or codes to find funds that contain those stocks,ค้นหาชื่อหรือรหัสหุ้น เพื่อดูว่ามีกองทุนไหนที่ลงทุนในหุ้นนั้นบ้าง
+YTD,YTD
+1D,1D
+1W,1W
+1M,1M
+3M,3M
+6M,6M
+1Y,1Y
+3Y,3Y
+5Y,5Y
+10Y,10Y
+MAX,MAX
+"""Fund Code""","""Fund Code"""
+0.00% / +x.xx% / -x.xx%,0.00% / +x.xx% / -x.xx%
+N/A,N/A
+THB,THB
+xx.xxxx,xx.xxxx
+JAN,ม.ค.
+FEB,ก.พ.
+MAR,มี.ค.
+APR,เม.ย.
+MAY,พ.ค.
+JUN,มิ.ย.
+JUL,ก.ค.
+AUG,ส.ค.
+SEP,ก.ย.
+OCT,ต.ค.
+NOV,พ.ย.
+DEC,ธ.ค.
 Risk,ความเสี่ยง
-Hedging Policy,นโยบายเฮดจิ้ง
-Dividend Policy,นโยบายปันผล
-Settlement Day,วันชำระราคา
-Minimum Buy,ลงทุนขั้นต่ำ
-Front-end Fee,ค่าธรรมเนียมขาซื้อ
-Total Fee,ค่าธรรมเนียมทั้งหมด
-Asset Allocation,สัดส่วนการลงทุน
-Asset allocation is not yet available for this fund.,ยังไม่มีข้อมูลสัดส่วนการลงทุนสำหรับกองทุนนี้
-Source,ที่มา
-Updated on,ข้อมูล ณ
-Investment allocations might exceed 100%,สัดส่วนการลงทุนอาจเกิน 100%
-"This may be due to rounding, accrued receivables/payables, other liabilities, or the use of derivatives in investment.","อาจมาจากการปัดทศนิยม มีรายการค้างรับ/
-ค้างจ่าย หรือหนี้สินอื่นๆ รวมถึงมีการใช้ตราสาร อนุพันธ์ หรืออนุพันธ์ในการลงทุน"
-Top holdings,สินทรัพย์หลักที่ลงทุน
-Top holdings is not yet available for this fund.,ยังไม่มีข้อมูลสินทรัพย์หลักสำหรับกองทุนนี้
-Source,ที่มา
-Updated on,ข้อมูล ณ
-Investment allocations might exceed 100%,สัดส่วนการลงทุนอาจเกิน 100%
-"This may be due to rounding, accrued receivables/payables, other liabilities, or the use of derivatives in investment.","อาจมาจากการปัดทศนิยม มีรายการค้างรับ/
-ค้างจ่าย หรือหนี้สินอื่นๆ รวมถึงมีการใช้ตราสาร อนุพันธ์ หรืออนุพันธ์ในการลงทุน"
+In Watchlist,กำลังติดตาม
+Recommended,แนะนำ
+Popular,ยอดนิยม
+RMF,RMF
+SSF,SSF
+SSFX,SSFX
+ThaiESG,ThaiESG
+ThaiESGX,ThaiESGX
+LTF,LTF
 ,
-Trailing Performance (Period),ผลตอบแทนรวม (ตามช่วงเวลา)
-Trailing Performance (Annualized),ผลตอบแทนรวม (เฉลี่ยต่อปี)
-Calendar Year Return,ผลตอบแทนรายปี
-Graph,กราฟ
-Table,ตาราง
-Return,Return
-SD,SD
-MDD,MDD
-Return/SD,Return/SD
-As of,ข้อมูล ณ
-,
-Dividend History,ประวัติการจ่ายเงินปันผล
-Dividend history is not yet available for this fund.,ยังไม่มีข้อมูลประวัติการจ่ายเงินปันผลสำหรับกองทุนนี้
-Book Closing,วันปิดสมุด
-Payment,วันจ่ายเงินปันผล
-THB/Unit,THB/หน่วย
-,
-Graph,กราฟ
-Table,ตาราง
-Front-end Fee,ค่าธรรมเนียมขาซื้อ
-Back-end Fee,ค่าธรรมเนียมขาขาย
-Total Fee,ค่าธรรมเนียมรวม
-How are fee collected?,ค่าธรรมเนียมจัดเก็บอย่างไร?
-There are two types of fees that are collected:,ค่าธรรมเนียมกองทุนมีอยู่ 2 ประเภท ได้แก่:
-"1.Annual fund operating expenses: Ongoing fees paid by the fund to cover management, accounting, legal, and similar costs.
-They are shown as a percentage of the fund's value each year. While you don't pay these fees directly, they do reduce the fund's return.","1.ค่าธรรมเนียมที่เรียกเก็บจากกองทุนรวม เช่น ค่าธรรมเนียมการจัดการ ค่าธรรมเนียมผู้ดูแลผลประโยชน์ ค่าธรรมเนียมนายทะเบียน และอื่น ๆ
-โดยจะแสดงเป็นอัตราร้อยละของมูลค่ากองทุนในแต่ละปี คุณจะไม่ได้จ่ายค่าธรรมเนียมเหล่านี้โดยตรง แต่จะถูกหักจากผลตอบแทนของกองทุนโดยอัตโนมัติ"
-"2.Transaction fees: One-time costs, including sales commissions, when buying, selling, and/or switching mutual funds.",2.ค่าธรรมเนียมที่เรียกเก็บจากผู้ถือหน่วย: ค่าธรรมเนียมที่เรียกเก็บจากผู้ถือหน่วยรายครั้ง เมื่อทำธุรกรรม ซื้อ ขาย และ/หรือ สับเปลี่ยนกองทุนรวม
-Transaction Conditions,เงื่อนไขการทำรายการ
-Buy cut-off Time,เวลาปิดรับคำสั่งซื้อ
-Sell cut-off Time,เวลาปิดรับคำสั่งขาย
-Minimum Buy,ยอดลงทุนขั้นต่ำ
-First-time,ครั้งแรก
-Next-time,ครั้งถัดไป
-Minimum Sell,การขายคืนหน่วยขั้นต่ำ
-Value,มูลค่า
-Units,หน่วย
-Minimum Balance,ยอดคงเหลือขั้นต่ำ
-Value,มูลค่า
-Units,หน่วย
-Settlement Day,ระยะเวลารับเงินค่าขายคืน
+Filter Funds,ตัวกรองค้นหากองทุน
 Tags,แท็ก
 In Watchlist,กำลังติดตาม
 Recommended,แนะนำ

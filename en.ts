@@ -41,7 +41,8 @@ const en = {
       "Discover the top-performing funds in your collection. Swipe up to explore and learn more.",
     emptyCollection: {
       title: "No Fund Cards in Your Collection",
-      description: "Start exploring and add fund cards to build your collection.",
+      description:
+        "Start exploring and add fund cards to build your collection.",
       button: "Discover",
     },
   },
@@ -65,7 +66,8 @@ const en = {
   emptyStateComponent: {
     generic: {
       heading: "So empty... so sad",
-      content: "No data found yet. Try clicking the button to refresh or reload the app.",
+      content:
+        "No data found yet. Try clicking the button to refresh or reload the app.",
       button: "Let's try this again",
     },
   },
@@ -103,7 +105,8 @@ const en = {
       "Have an idea to make Ignite even better? We're happy to hear that! We're always looking for others who want to help us build the best React Native tooling out there. Join us over on GitHub to join us in building the future of Ignite.",
     contributeToIgniteLink: "Contribute to Ignite",
     theLatestInReactNativeTitle: "The latest in React Native",
-    theLatestInReactNative: "We're here to keep you current on all React Native has to offer.",
+    theLatestInReactNative:
+      "We're here to keep you current on all React Native has to offer.",
     reactNativeRadioLink: "React Native Radio",
     reactNativeNewsletterLink: "React Native Newsletter",
     reactNativeLiveLink: "React Native Live",
@@ -154,7 +157,8 @@ const en = {
       favoriteIcon: "Episode not favorited",
       unfavoriteIcon: "Episode favorited",
       publishLabel: "Published {{date}}",
-      durationLabel: "Duration: {{hours}} hours {{minutes}} minutes {{seconds}} seconds",
+      durationLabel:
+        "Duration: {{hours}} hours {{minutes}} minutes {{seconds}} seconds",
     },
     noFavoritesEmptyState: {
       heading: "This looks a bit empty",
@@ -204,7 +208,8 @@ const en = {
     portfolio: {
       portEmpty: {
         title: "Let’s build your portfolio.",
-        detail: "Add funds to start tracking your portfolio’s value and top performer.",
+        detail:
+          "Add funds to start tracking your portfolio’s value and top performer.",
         button: "Start now.",
       },
     },
@@ -494,7 +499,8 @@ const en = {
       },
       netflow: {
         title: "Net Flow",
-        detail: "See where money's flowing to uncover market trends and investor sentiment.",
+        detail:
+          "See where money's flowing to uncover market trends and investor sentiment.",
       },
       allocated: {
         title: "Percent Allocated",
@@ -512,7 +518,8 @@ const en = {
   },
   banner: {
     title: "Try our Stock Search",
-    detail: "Search stock names or codes to find funds that contain those stocks",
+    detail:
+      "Search stock names or codes to find funds that contain those stocks",
   },
   toolsButton: {
     compare: "Compare",
@@ -593,7 +600,8 @@ const en = {
     announcements: {
       emptyAnnoucements: {
         title: "No Annoucements Yet",
-        detail: "Stay tuned! Check back later or add this\nfund to your watchlist to get updates.",
+        detail:
+          "Stay tuned! Check back later or add this\nfund to your watchlist to get updates.",
       },
     },
     bottomSheet: {
@@ -626,11 +634,13 @@ const en = {
     },
     emptyList: {
       title: "Time to Build Your Watchlist",
-      detail: "Start adding funds you’re interested in and\nkeep an eye on their performance.",
+      detail:
+        "Start adding funds you’re interested in and\nkeep an eye on their performance.",
     },
     emptyNews: {
       title: "No News Yet",
-      detail: "Stay tuned! Add funds to your watchlist or\ncheck back later for updates.",
+      detail:
+        "Stay tuned! Add funds to your watchlist or\ncheck back later for updates.",
     },
     button: {
       addfund: "Add Fund",
@@ -695,8 +705,10 @@ const en = {
       subHeadline:
         "A bigger shaded area means a better fund—higher returns, lower risk, stronger protection, and fewer costs.",
       body: "Components of the Radar Chart",
-      bodySubHeadline1: "Return: How much money the fund has made over time. Higher is better!",
-      bodySubHeadline2: "Risk: How much the fund’s value goes up and down. Lower means steadier.",
+      bodySubHeadline1:
+        "Return: How much money the fund has made over time. Higher is better!",
+      bodySubHeadline2:
+        "Risk: How much the fund’s value goes up and down. Lower means steadier.",
       bodySubHeadline3:
         "Return/Risk: How much profit the fund makes for each bit of risk. Higher is better.",
       bodySubHeadline4:
@@ -745,7 +757,8 @@ const en = {
       myCollection: {
         emptyCollection: {
           title: "No Fund Cards in Your Collection",
-          description: "Start exploring and add fund cards to build your collection.",
+          description:
+            "Start exploring and add fund cards to build your collection.",
           buttonDiscoverFundCard: "Discover Funds Card",
         },
       },
@@ -766,7 +779,8 @@ const en = {
       feedback: "Feedback",
       feedbackPlaceHolder: "Give us your feedback",
       sentReport: "Send Report",
-      feedbackSuccessText: "Thanks for helping us improve! Your feedback means a lot to us.",
+      feedbackSuccessText:
+        "Thanks for helping us improve! Your feedback means a lot to us.",
       feedbackFailText: "Something went wrong. Please try again.",
     },
     SupportRequests: {
@@ -780,7 +794,8 @@ const en = {
   // loginWall
   loginWall: {
     title: "Unlock Smart Tools for Smarter Investing!",
-    description: "Create a FUNDii profile to get unlimited access to even more smart features.",
+    description:
+      "Create a FUNDii profile to get unlimited access to even more smart features.",
     button: {
       createProfile: "Create Profile",
       login: "Have an account? Login",
@@ -788,7 +803,8 @@ const en = {
   },
   blurBoxUnlock: {
     title: "Unlock Smart Tools for Smarter Investing.",
-    description: "Create a profile now to get unlimited access to powerful features.",
+    description:
+      "Create a profile now to get unlimited access to powerful features.",
   },
   createPassword: {
     header: "Create a secure password",
@@ -810,14 +826,15 @@ const en = {
   },
   // Create Profile
   createProfile: {
-    title: "Create a profile now to get the best\ntools to invest..",
+    title: "Create a profile now to get the best\ntools to invest.",
     userName: {
       title: "Username",
       hint: "Must be 4-20 characters.",
       error: {
         taken: "This username has been taken.",
         atLeast: "Must be at least 4 characters.",
-        invalid: "Use only letters, numbers, underscores (_), periods (.), and hyphens (-).",
+        invalid:
+          "Use only letters, numbers, underscores (_), periods (.), and hyphens (-).",
       },
     },
     button: {
@@ -847,7 +864,8 @@ const en = {
     email: "email",
     phone: "phone",
     verificationCodeSent: "Verification Code Sent!",
-    description: "We've sent a one-time passcode to your",
+    description:
+      "We've sent a one-time passcode to your\r\n{{channel}}: {{contact}}",
     notYourEmail: "Not your email?",
     notYourPhone: "Not your phone?",
     oneTimePasscode: "One-time Passcode",
@@ -858,7 +876,8 @@ const en = {
   verifyEmailPhone: {
     title: "One Last Step to Stay Informed!",
     titleForPhone: "One Last Step to Enter!",
-    description: "Add your email to receive important updates and backup your account.",
+    description:
+      "Add your email to receive important updates and backup your account.",
     descriptionForPhone: "Add your phone to verify your account.",
     input: {
       email: "Email",
@@ -874,7 +893,8 @@ const en = {
       skip: "Skip",
     },
     error: {
-      email: "Please enter a valid email address in the format: example@mail.com.",
+      email:
+        "Please enter a valid email address in the format: example@mail.com.",
       emailDuplicated: "This email is already connected to an account.",
       phone: "Your Thai phone number should be a 10-digit number.",
       phoneDuplicated: "This phone number is already connected to an account.",
@@ -904,11 +924,13 @@ const en = {
     tutorial: {
       step1: {
         title: "Swipe Up to Explore!",
-        description: "See what’s inside this collection. Swipe up to view your first fund card.",
+        description:
+          "See what’s inside this collection. Swipe up to view your first fund card.",
       },
       step2: {
         title: "Tap to Flip & Learn More",
-        description: "Want details? Tap the card to flip it and see more fund insights.",
+        description:
+          "Want details? Tap the card to flip it and see more fund insights.",
       },
       step3: {
         title: "Swipe Up or Down to Browse Cards",
@@ -917,7 +939,8 @@ const en = {
       },
       step4: {
         title: "Swipe Left for a New Collection",
-        description: "Swipe left to jump to the next collection and discover more fund options.",
+        description:
+          "Swipe left to jump to the next collection and discover more fund options.",
       },
       step5: {
         title: "Double Tap to Save and Add to Your Collection!",
@@ -926,7 +949,8 @@ const en = {
       },
       step6: {
         title: "This Fund is Now in Your Collection!",
-        description: "This fund is saved! You can find it anytime in the 'Me' tab.",
+        description:
+          "This fund is saved! You can find it anytime in the 'Me' tab.",
       },
     },
     cover: {
@@ -949,13 +973,15 @@ const en = {
       modalTitle: "Why didn’t you like this summary?",
       tellUsMore: "Tell us more",
       tellUsMoreTitle: "What can we do better?",
-      tellUsMoreReasonPlaceholder: "Tell us the reason you didn’t like the AI Summary...",
+      tellUsMoreReasonPlaceholder:
+        "Tell us the reason you didn’t like the AI Summary...",
       unhelpful: "Unhelpful / Not relevant",
       incorrectSummary: "Incorrect summary",
     },
     toast: {
       notInterested: "We’ll show you fewer funds like this.",
-      feedbackSuccess: "Thanks for helping us improve! Your feedback means a lot to us.",
+      feedbackSuccess:
+        "Thanks for helping us improve! Your feedback means a lot to us.",
       cardDeletedFromMyCollection: "Card deleted from ‘My Collection’.",
       reachCollectionLimit: "You’ve reached the 100 card collection limit.",
       imageSavedSuccessFully: "Image saved successfully.",
@@ -988,7 +1014,8 @@ const en = {
       },
       highestReturnSd_1Y: {
         title: "Highest Return/SD (1Y)",
-        description: "Funds with the highest returns for the risk taken over the past year.",
+        description:
+          "Funds with the highest returns for the risk taken over the past year.",
       },
     },
   },
@@ -1060,7 +1087,8 @@ const en = {
     },
     deleteAccount: {
       label: "Delete Account",
-      detail: "Deleting your account is permanent. This action cannot be undone",
+      detail:
+        "Deleting your account is permanent. This action cannot be undone",
       modalConfirm: {
         title: "Are you sure you want to delete your account?",
         detail:
@@ -1138,7 +1166,8 @@ const en = {
   },
   ProfilePicture: {
     error: {
-      fileTooBig: "File is bigger than the 2 MB limit. Please choose a different image.",
+      fileTooBig:
+        "File is bigger than the 2 MB limit. Please choose a different image.",
     },
   },
   CompareSelect: {
@@ -1199,7 +1228,8 @@ const en = {
       header: "fundii",
       fundiiUpdatesPerk: {
         label: "fundii Updates & Perks",
-        detail: "Stay updated on new features, campaigns, promotions, and the latest from FUNDii",
+        detail:
+          "Stay updated on new features, campaigns, promotions, and the latest from FUNDii",
       },
     },
     investingSection: {
@@ -1236,11 +1266,13 @@ const en = {
       },
       priceUpdates: {
         label: "Price Updates",
-        detail: "We’ll notify you of any NAV/Unit updates for your watchlisted funds",
+        detail:
+          "We’ll notify you of any NAV/Unit updates for your watchlisted funds",
       },
       newHighsAndLows: {
         label: "New Highs and Lows",
-        detail: "Stay updated on all-time and 52-week highs and lows at a glance",
+        detail:
+          "Stay updated on all-time and 52-week highs and lows at a glance",
       },
       significantPriceChange: {
         label: "Significant Price Change",
@@ -1269,6 +1301,10 @@ const en = {
       "You’ve built your fund dream team.\nNow let the games begin! Track your picks\nand see if your strategy shines.",
     note: "You can still make changes until the deadline.",
     button: "Okay",
+    toast: {
+      success:
+        "Your port is submitted, but you can still\nmake changes until the deadline.",
+    },
   },
   Fantasy: {
     title: "Decks. Portfolios. Competition. Glory.",
@@ -1280,16 +1316,27 @@ const en = {
       title: "Win Big Cash!",
       detail: `Enter now for your chance to win\nexciting prizes up to 200,000 baht!!`,
     },
+    weeklyBanner: {
+      title: "{{round}} Chance!",
+      detail:
+        "Enter now  for your chance to win small prizes up to {{amount}} baht*!!",
+    },
     beating: {
       description:
         "Goal: Beat inflation (0.30%) and play amongst yourselves to be the best portfolio manager",
       detail: "Details",
       header: "Fantasy Season {{number}}",
       deadLine: "Deadline in:",
+      end: "End: {{date}}",
+    },
+    seasonCard: {
+      beatingInflation: "You're beating inflation!",
+      rankDetail: "You're in the {{rankNumber}}{{rankSuffix}} Place!",
+      target: "Target {{amount}}",
     },
     button: {
       createPort: "Create Your Port",
-      yourPort: "Your Portfolio",
+      yourPort: "Your Port",
       confirmPort: "Confirm Port",
       mange: "Manage",
       save: "Save",
@@ -1308,9 +1355,13 @@ const en = {
     },
     modal: {
       title: "Unsaved changes will be lost.",
-      subTitle: "Your adjustments haven’t been saved. Going back will cancel them.",
+      subTitle:
+        "Your adjustments haven’t been saved. Going back will cancel them.",
       back: "Go Back",
       stay: "Stay",
+    },
+    toast: {
+      noMatch: "Can’t add fund: asset type doesn’t match",
     },
   },
   fantasyStat: {
@@ -1321,7 +1372,11 @@ const en = {
       bestPerformer: "Best Performer",
     },
     emptyText: {
-      mostPicked: "Quiet today. Rankings will appear when there’s something worth showing.",
+      error:
+        "Quiet today. Rankings will appear when there’s something worth showing.",
+      noRanking: "No Rankings Yet.",
+      noRankingDesc:
+        "We’ll start the rankings when the season starts. Check in later.",
     },
     netFlow: "Net Flow",
     percentagePicked: "% Picked",
@@ -1331,7 +1386,13 @@ const en = {
     character: "Character",
     rankFund: "Rank Fund",
   },
-}
+  about: {
+    header: "About",
+    privacyPolicy: "Privacy Policy",
+    termsConditions: "Terms & Conditions",
+    versionApp: "Version {{version}}",
+  },
+};
 
-export default en
-export type Translations = typeof en
+export default en;
+export type Translations = typeof en;

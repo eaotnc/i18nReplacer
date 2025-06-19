@@ -853,7 +853,8 @@ const th: Translations = {
     email: "email",
     phone: "phone",
     verificationCodeSent: "Verification Code Sent!",
-    description: "We've sent a one-time passcode to your",
+    description:
+      "We've sent a one-time passcode to your\r\n{{channel}}: {{contact}}",
     notYourEmail: "Not your email?",
     notYourPhone: "Not your phone?",
     oneTimePasscode: "One-time Passcode",
@@ -1287,6 +1288,10 @@ const th: Translations = {
       "You’ve built your fund dream team.\nNow let the games begin! Track your picks\nand see if your strategy shines.",
     note: "You can still make changes until the deadline.",
     button: "Okay",
+    toast: {
+      success:
+        "Your port is submitted, but you can still\nmake changes until the deadline.",
+    },
   },
   Fantasy: {
     title: "Decks. Portfolios. Competition. Glory.",
@@ -1299,16 +1304,27 @@ const th: Translations = {
       detail:
         "Enter now for your chance to win\nexciting prizes up to 200,000 baht!!",
     },
+    weeklyBanner: {
+      title: "{{round}} Chance!",
+      detail:
+        "Enter now  for your chance to win small prizes up to {{amount}} baht*!!",
+    },
     beating: {
       description:
         "Goal: Beat inflation (0.30%) and play amongst yourselves to be the best portfolio manager",
       detail: "Details",
       header: "Fantasy Season {{number}}",
       deadLine: "Deadline in:",
+      end: "End: {{date}}",
+    },
+    seasonCard: {
+      beatingInflation: "You're beating inflation!",
+      rankDetail: "You're in the {{rankNumber}}{{rankSuffix}} Place!",
+      target: "Target {{amount}}",
     },
     button: {
       createPort: "Create Your Port",
-      yourPort: "Your Portfolio",
+      yourPort: "Your Port",
       confirmPort: "Confirm Port",
       mange: "Manage",
       save: "บันทึก",
@@ -1332,6 +1348,9 @@ const th: Translations = {
       back: "Go Back",
       stay: "Stay",
     },
+    toast: {
+      noMatch: "Can’t add fund: asset type doesn’t match",
+    },
   },
   fantasyStat: {
     header: {
@@ -1341,8 +1360,11 @@ const th: Translations = {
       bestPerformer: "Best Performer",
     },
     emptyText: {
-      mostPicked:
+      error:
         "Quiet today. Rankings will appear when there’s something worth showing.",
+      noRanking: "No Rankings Yet.",
+      noRankingDesc:
+        "We’ll start the rankings when the season starts. Check in later.",
     },
     netFlow: "เงินลงทุนสุทธิ",
     percentagePicked: "% Picked",
@@ -1351,6 +1373,12 @@ const th: Translations = {
     theme: "ธีมการลงทุน",
     character: "Character",
     rankFund: "Rank Fund",
+  },
+  about: {
+    header: "About",
+    privacyPolicy: "Privacy Policy",
+    termsConditions: "Terms & Conditions",
+    versionApp: "Version {{version}}",
   },
 };
 
