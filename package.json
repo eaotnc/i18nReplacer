@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "npx ts-node index.ts"
+  },
   "devDependencies": {
     "@types/papaparse": "^5.3.16",
     "ts-node": "^10.9.2",
