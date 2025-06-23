@@ -10,6 +10,12 @@ const en = {
     undo: "Undo",
     save: "Save",
     delete: "Delete",
+    graph: "Graph",
+    table: "Table",
+    asOf: "As of",
+    source: "Source",
+    updatedOn: "Updated on",
+    days: "Days",
     item: {
       zero: "items",
       one: "item",
@@ -562,6 +568,7 @@ const en = {
     fundAssetAllocation: {
       assetAllocation: "Asset Allocation",
     },
+
     fundTopHolding: {
       topHolding: "Top Holdings",
     },
@@ -661,6 +668,13 @@ const en = {
   },
   // Price Alert
   priceAlert: {
+    title: "Price Alert",
+    nav: "NAV/Unit",
+    fundCode: "Fund Code",
+    current: "Current",
+    target: "Target",
+    setPriceAlert: "Set Price Alert",
+    editPriceAlert: "Edit Price Alert",
     manangePriceAlert: { targetNavUnit: "Target NAV/Unit" },
     button: {
       create: "Create Alert",
@@ -676,10 +690,15 @@ const en = {
       deleted: "Alert deleted.",
       error: "Error: Unable to save changes. Please try again.",
     },
+    alert: {
+      inputNavUnit: "Alert me when NAV/Unit crosses",
+      inputNavChange: "NAV/Unit Change",
+    },
   },
   // compare
   compare: {
     title: "Compare",
+    header: "Compare List",
     button: {
       create: "Add Fund",
     },
@@ -716,6 +735,16 @@ const en = {
       bodySubHeadline5:
         "Transaction Fee: The cost of buying and selling the fund. Lower fees mean you keep more money!",
     },
+  },
+  compareFeeChart: {
+    fontendFee: "Front-end Fee",
+    backEndFee: "Back-end Fee",
+    totalFee: "Total Fee",
+  },
+  compareFeeBarChart: {
+    fontendFee: "Front-end\nFee",
+    backEndFee: "Back-end\nFee",
+    totalFee: "Total\nFee",
   },
   compareSearch: {
     fromYourPortfolioAndSaves: "From Your Portfolio and Saves",
@@ -1186,6 +1215,7 @@ const en = {
     },
     change: "Change",
     addFund: "Add Fund",
+    item: "items",
     toast: {
       added: "Fund added.",
       deleted: "Fund deleted.",
@@ -1323,16 +1353,15 @@ const en = {
     },
     beating: {
       description:
-        "Goal: Beat inflation (0.30%) and play amongst yourselves to be the best portfolio manager",
+        "Goal: Beat inflation (0.25%) and play amongst yourselves to be the best portfolio manager",
       detail: "Details",
-      header: "Fantasy Season {{number}}",
       deadLine: "Deadline in:",
       end: "End: {{date}}",
     },
     seasonCard: {
       beatingInflation: "You're beating inflation!",
       rankDetail: "You're in the {{rankNumber}}{{rankSuffix}} Place!",
-      target: "Target {{amount}}",
+      targetPercent: "Target {{amount}}",
     },
     button: {
       createPort: "Create Your Port",
@@ -1360,6 +1389,21 @@ const en = {
       back: "Go Back",
       stay: "Stay",
     },
+    totalAssetsAndyourBestFighter: {
+      urBestFighter: "Your Best Fighter",
+      urBestFighterDesc: "Since the start, {{fundCode}} has given you a",
+      totalAssets: "Total Assets",
+      totalReturn: "Total Return",
+      totalReturnWithUnit: "{{number}} FND ",
+      decimalWithUnit: ".{{decimal}} FND",
+      return: "Return",
+    },
+    yourRanking: {
+      title: "Your Ranking",
+      leaderBoard: "Leaderboard",
+      rank: "Rank",
+      completed: "Completed",
+    },
     toast: {
       noMatch: "Can’t add fund: asset type doesn’t match",
     },
@@ -1385,7 +1429,28 @@ const en = {
     theme: "Theme",
     character: "Character",
     rankFund: "Rank Fund",
+    streakCount: "Streak Count",
+    return: "Return",
   },
+  bottomSheetFeeInfo: {
+    header: "Fee Information",
+    howFeeCollected: "How are Fees Collected?",
+    content1: "There are two types of fees that are collected: ",
+    content2: 'Annual Fund Operating Expenses:" "',
+    content3:
+      "Ongoing fees paid by the fund to cover management, accounting, legal, and similar costs.",
+    content4:
+      "They're shown as a percentage of the fund’s value each year. While you don’t pay these fees directly, they do reduce the fund’s returns.",
+    content5: 'Transaction Fees:" "',
+    content6:
+      "One-time costs, including sales commissions, when buying, selling, and/or switching mutual funds.",
+  },
+  bottomSheetAssetAllocation: {
+    header: "Investment allocations might exceed 100%",
+    content:
+      "This may be due to rounding, accrued receivables/payables, other liabilities, or the use of derivatives in investment.",
+  },
+
   about: {
     header: "About",
     privacyPolicy: "Privacy Policy",

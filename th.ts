@@ -3,19 +3,25 @@ import { Translations } from "./en";
 const th: Translations = {
   common: {
     ok: "OK!",
-    cancel: "Cancel",
+    cancel: "ยกเลิก",
     back: "Back",
     logOut: "Log Out",
     filter: "Filter",
     none: "None",
     multiple: "Multiple",
     undo: "Undo",
-    save: "Save",
-    delete: "Delete",
+    save: "บันทึก",
+    delete: "ลบ",
+    graph: "กราฟ",
+    table: "ตาราง",
+    asOf: "ข้อมูล ณ",
+    source: "ที่มา",
+    updatedOn: "ข้อมูล ณ",
+    days: "วัน",
     item: {
-      zero: "items",
-      one: "item",
-      other: "items",
+      zero: "รายการ",
+      one: "รายการ",
+      other: "รายการ",
     },
     input: {
       email: "Email",
@@ -72,7 +78,6 @@ const th: Translations = {
       button: "Let's try this again",
     },
   },
-
   errors: {
     invalidEmail: "Invalid email address.",
   },
@@ -224,7 +229,7 @@ const th: Translations = {
     textSearchPlaceholder: "ค้นหา",
     textSearchButtonPlaceholder: "Try searching for “NVDA”",
     textOtherStockSearchButtonPlaceholder: "Search for stock names or codes",
-    recentlySearch: "คำค้นหาล่าสุด",
+    recentlySearch: "การค้นหาล่าสุด",
     popularSearch: "คำค้นหายอดนิยม",
     more: "ดูเพิ่มเติม",
     less: "ดูน้อยลง",
@@ -240,11 +245,11 @@ const th: Translations = {
     modal: {
       titleModalDel: "Delete Search History?",
       messageModalDel: "This will permanently delete all search history.",
-      cancelText: "Cancel",
-      confirmText: "Delete",
+      cancelText: "ยกเลิก",
+      confirmText: "ลบ",
     },
     sellAll: "See All",
-    cancel: "Cancel",
+    cancel: "ยกเลิก",
   },
   fundiiNavigator: {
     homeTab: "หน้าหลัก",
@@ -284,7 +289,6 @@ const th: Translations = {
     detail:
       "Search stock names or codes to find funds that contain those stocks",
   },
-  // FundList Screen
   filters: {
     title: "ตัวกรองค้นหากองทุน",
     shortcuts: {
@@ -475,7 +479,7 @@ const th: Translations = {
         Yes: "จ่าย",
       },
       MinimumBuy: {
-        title: "มูลค่าขั้นต่ำของการซื้อ",
+        title: "ยอดลงทุนขั้นต่ำ",
         Any: "ทั้งหมด",
         thb1: "≤ 1 บาท",
         thb100: "≤ 100 บาท",
@@ -525,7 +529,7 @@ const th: Translations = {
   toolsButton: {
     compare: "เปรียบเทียบ",
     priceAlert: "แจ้งเตือนราคา",
-    watchlist: "ติดตาม",
+    watchlist: "รายการติดตาม",
   },
   fundInfo: {
     actualValue: "*Actual Value",
@@ -538,7 +542,7 @@ const th: Translations = {
       addToWatchlist: "Add to Watchlist",
       removeFromWatchlist: "Remove from Watchlist",
     },
-    bookClosing: "Book Closing",
+    bookClosing: "วันปิดสมุด",
     subHeader: {
       risk: "ความเสี่ยง {{risk}}",
     },
@@ -546,37 +550,38 @@ const th: Translations = {
     buy: "ซื้อ",
     sell: "ขาย",
     fundSummary: {
-      summary: "Summary",
-      masterFund: "Master Fund",
-      inceptionDate: "Inception Date",
-      aum: "AUM",
-      risk: "Risk",
-      hedgingPolicy: "Hedging Policy",
-      dividendPolicy: "Dividend Policy",
-      settlementDay: "Settlement Day",
-      minimumBuy: "Minimum Buy",
-      frontEndFee: "Front-end Fee",
-      totalFee: "Total Fee",
+      summary: "สรุป",
+      masterFund: "กองทุนหลัก",
+      inceptionDate: "วันที่จัดตั้งกองทุน",
+      aum: "มูลค่าทรัพย์สินสุทธิ",
+      risk: "ความเสี่ยง",
+      hedgingPolicy: "นโยบายเฮดจิ้ง",
+      dividendPolicy: "นโยบายปันผล",
+      settlementDay: "ระยะเวลารับเงินค่าขายคืน",
+      minimumBuy: "ยอดลงทุนขั้นต่ำ",
+      frontEndFee: "ค่าธรรมเนียมขาซื้อ",
+      totalFee: "ค่าธรรมเนียมรวม",
       fundFactSheet: "Fund Factsheet",
       ai: "AI-Generated",
     },
     fundAssetAllocation: {
-      assetAllocation: "Asset Allocation",
+      assetAllocation: "สัดส่วนการลงทุน",
     },
+
     fundTopHolding: {
-      topHolding: "Top Holdings",
+      topHolding: "สินทรัพย์หลักที่ลงทุน",
     },
     fundDividend: {
-      dividendHistory: "Dividend History",
-      bookClosing: "Book Closing",
-      payment: "Payment",
-      THBUnit: "THB/Unit",
+      dividendHistory: "ประวัติการจ่ายเงินปันผล",
+      bookClosing: "วันปิดสมุด",
+      payment: "วันจ่ายเงินปันผล",
+      THBUnit: "THB/หน่วย",
     },
     fundFee: {
-      fee: "Fees",
+      fee: "ค่าธรรมเนียม",
       annualOperatingExpenses: "Annual Operating Expenses",
       managementFee: "Management Fee",
-      totalFee: "Total Fee",
+      totalFee: "ค่าธรรมเนียมรวม",
       peer: "Peers",
       fund: "Fund",
       transactionFee: "Transaction Fees",
@@ -586,17 +591,17 @@ const th: Translations = {
       switchingIn: "Switching In",
     },
     transactionCondition: {
-      transactionCondition: "Transaction Conditions",
-      buyCutoffTime: "Buy Cut-off Time",
-      sellCutoffTime: "Sell Cut-off Time",
-      minimumBuy: "Minimum Buy",
-      firstTime: "First-time",
-      nextTime: "Next-time",
-      minimumSell: "Minimum Sell",
-      value: "Value",
-      unit: "Units",
-      minimumBalance: "Minimum Balance",
-      settlementDay: "Settlement Day",
+      transactionCondition: "เงื่อนไขการทำรายการ",
+      buyCutoffTime: "เวลาปิดรับคำสั่งซื้อ",
+      sellCutoffTime: "เวลาปิดรับคำสั่งขาย",
+      minimumBuy: "ยอดลงทุนขั้นต่ำ",
+      firstTime: "ครั้งแรก",
+      nextTime: "ครั้งถัดไป",
+      minimumSell: "การขายคืนหน่วยขั้นต่ำ",
+      value: "มูลค่า",
+      unit: "หน่วย",
+      minimumBalance: "ยอดคงเหลือขั้นต่ำ",
+      settlementDay: "ระยะเวลารับเงินค่าขายคืน",
     },
     announcements: {
       emptyAnnoucements: {
@@ -626,105 +631,127 @@ const th: Translations = {
       },
     },
   },
-  // Watchlist Screen
   watchlist: {
-    title: "รายการที่ติดตาม",
+    title: "รายการติดตาม",
     buttonOptions: {
-      edit: "Edit",
-      settings: "Settings",
+      edit: "แก้ไข",
+      settings: "ตั้งค่า",
     },
     emptyList: {
-      title: "Time to Build Your Watchlist",
+      title: "ถึงเวลาสร้างรายการติดตามของคุณแล้ว",
       detail:
-        "Start adding funds you’re interested in and\nkeep aneye on their performance.",
+        "เริ่มเพิ่มกองทุนที่คุณสนใจ\nและติดตามผลการดำเนินการของกองทุนนั้น.",
     },
     emptyNews: {
-      title: "Time to Build Your Watchlist",
+      title: "ยังไม่มีข่าวสาร",
       detail:
-        "Start adding funds you’re interested in and\nkeep aneye on their performance.",
+        "เริ่มเพิ่มกองทุนที่คุณสนใจ\nและติดตามผลการดำเนินการของกองทุนนั้น.",
     },
     button: {
-      addfund: "Add Fund",
-      delete: "Delete",
+      addfund: "เพิ่มกองทุน",
+      delete: "ลบ",
     },
-    updated: "อัพเดต",
+    updated: "อัปเดตล่าสุด",
     taps: {
-      funds: "funds",
-      announcements: "Announcements",
+      funds: "กองทุน",
+      announcements: "ข่าวสาร",
     },
     card: {
       today: "วันนี้",
-      earlier: "ล่าสุด",
+      earlier: "ก่อนหน้านี้",
     },
     toast: {
-      watchlistLimit: "You’ve reached the 30 fund watchlist limit.",
+      watchlistLimit: "คุณมีกองทุนที่ติดตามเกิน 30 กองทุนแล้ว",
     },
   },
-  // Price Alert
   priceAlert: {
-    manangePriceAlert: { targetNavUnit: "Target NAV/Unit" },
+    title: "การแจ้งเตือนราคา",
+    nav: "NAV/หน่วย",
+    fundCode: "กองทุน",
+    current: "ราคาปัจจุบัน",
+    target: "ราคาเป้าหมาย",
+    setPriceAlert: "ตั้งค่าการแจ้งเตือนราคา",
+    editPriceAlert: "แก้ไขการแจ้งเตือนราคา",
+    manangePriceAlert: {
+      targetNavUnit: "ราคาเป้าหมาย",
+    },
     button: {
-      create: "Create Alert",
-      delete: "Delete",
-      setAlert: "Set Alert",
+      create: "สร้างการแจ้งเตือน",
+      delete: "ลบ",
+      setAlert: "ตั้งค่าการแจ้งเตือน",
     },
     emptyList: {
-      title: "No Price Alerts Yet",
-      detail: "Set up alerts to stay informed when\nprices change.",
+      title: "ยังไม่มีการแจ้งเตือนราคา",
+      detail:
+        "ตั้งค่าการแจ้งเตือนเพื่อรับทราบข้อมูล\nเมื่อราคามีการเปลี่ยนแปลง",
     },
     toast: {
-      saved: "Alert set. We’ll notify you at your target NAV/Unit.",
-      deleted: "Alert deleted.",
-      error: "Error: Unable to save changes. Please try again.",
+      saved:
+        "ตั้งค่าการแจ้งเตือนแล้ว เราจะแจ้งให้คุณทราบเมื่อราคา NAV/หน่วย ถึงเป้าหมายของคุณ",
+      deleted: "ลบการแจ้งเตือนแล้ว",
+      error: "เกิดข้อผิดพลาด: ไม่สามารถบันทึกได้ กรุณาลองใหม่อีกครั้ง",
+    },
+    alert: {
+      inputNavUnit: "แจ้งเตือนเมื่อ NAV/หน่วย ถึงราคาที่กำหนด",
+      inputNavChange: "%การเปลี่ยนแปลง",
     },
   },
-  // compare
   compare: {
-    title: "Compare",
+    title: "เปรียบเทียบ",
+    header: "เปรียบเทียบกองทุน",
     button: {
-      create: "Add Fund",
+      create: "เพิ่มกองทุน",
     },
     emptyList: {
-      title: "No Funds to Compare Yet",
-      detail: "Add two or more funds to get started.",
+      title: "ยังไม่มีกองทุนทุนที่จะเปรียบเทียบ",
+      detail: "เพิ่มสองกองทุนหรือมากกว่าเพื่อเริ่มต้น",
     },
     result: {
-      summary: "Summary",
-      data: "Data",
-      assetAllication: "Asset Allocation",
-      topHoldings: "Top Holdings",
-      dividend: "Dividend History",
+      summary: "สรุป",
+      data: "ข้อมูล",
+      assetAllication: "สัดส่วนการลงทุน",
+      topHoldings: "สินทรัพย์หลักที่ลงทุน",
+      dividend: "ประวัติการจ่ายเงินปันผล",
       settlementDay: "T+{{days}}",
       days: "Days",
-      transactionConditions: "Transaction Conditions",
-      minimumBuy: "Minimum Buy",
-      minimumSell: "Minimum Sell",
-      minimumBalance: "Minimum Balance",
+      transactionConditions: "เงื่อนไขการทำรายการ",
+      minimumBuy: "ยอดลงทุนขั้นต่ำ",
+      minimumSell: "การขายคืนหน่วยขั้นต่ำ",
+      minimumBalance: "ยอดคงเหลือขั้นต่ำ",
     },
     bottomSheetRadar: {
-      headline: "Understanding the Radar Chart",
+      headline: "ทำความเข้าใจเรดาร์",
       subHeadline:
-        "A bigger shaded area means a better fund—higher returns, lower risk, stronger protection, and fewer costs.",
-      body: "Components of the Radar Chart",
+        "พื้นที่เงาที่ใหญ่กว่าหมายถึงกองทุนที่ดีกว่า — ให้ผลตอบแทนสูงกว่า ความเสี่ยงต่ำกว่า การรักษาเงินต้นได้ดีกว่า และมีค่าธรรมเนียมน้อยกว่า",
+      body: "องค์ประกอบของเรดาร์",
       bodySubHeadline1:
-        "Return: How much money the fund has made over time. Higher is better!",
+        "ผลตอบแทน: กองทุนทำเงินได้มากแค่ไหนในช่วงเวลาใดเวลาหนึ่ง ยิ่งสูงยิ่งดี!",
       bodySubHeadline2:
-        "Risk: How much the fund’s value goes up and down. Lower means steadier.",
+        "ความเสี่ยง: มูลค่าของกองทุนมีความผันผวนมากแค่ไหน ยิ่งต่ำยิ่งนิ่ง",
       bodySubHeadline3:
-        "Return/Risk: How much profit the fund makes for each bit of risk. Higher is better.",
+        "ผลตอบแทนต่อความเสี่ยง: กองทุนสร้างกำไรได้มากแค่ไหนเมื่อเทียบกับความเสี่ยง ยิ่งสูงยิ่งดี",
       bodySubHeadline4:
-        "Preservation: How well the fund protects your money in bad times. Better preservation means safer.",
+        "การรักษาเงินต้น: กองทุนสามารถปกป้องเงินของคุณในช่วงเวลาที่ตลาดแย่ได้ดีแค่ไหน การรักษาเงินต้นที่ดีหมายถึงความปลอดภัยที่มากขึ้น",
       bodySubHeadline5:
-        "Transaction Fee: The cost of buying and selling the fund. Lower fees mean you keep more money!",
+        "ค่าธรรมเนียมการซื้อขาย: ค่าธรรมเนียมซื้อขายกองทุน ค่าธรรมเนียมยิ่งต่ำยิ่งดี!",
     },
+  },
+  compareFeeChart: {
+    fontendFee: "ค่าธรรมเนียมขาซื้อ",
+    backEndFee: "ค่าธรรมเนียมขาขาย",
+    totalFee: "ค่าธรรมเนียมรวม",
+  },
+  compareFeeBarChart: {
+    fontendFee: "ค่าธรรมเนียม\nขาซื้อ",
+    backEndFee: "ค่าธรรมเนียม\nขาขาย",
+    totalFee: "ค่าธรรมเนียม\nรวม",
   },
   compareSearch: {
-    fromYourPortfolioAndSaves: "From Your Portfolio and Saves",
+    fromYourPortfolioAndSaves: "จากพอร์ตกองทุนและบันทึกของคุณ",
     toast: {
-      reach10limit: "You have reached the 10 fund limit.",
+      reach10limit: "คุณมีกองทุนเกินกว่าที่กำหนด 10 กองทุนแล้ว",
     },
   },
-  // Me
   me: {
     hiName: "Hi, {{name}}",
     hi: "Hi",
@@ -765,7 +792,6 @@ const th: Translations = {
       },
     },
   },
-  // feedback
   contactAndSupport: {
     pageTitle: "Contact & Support",
     contactUs: {
@@ -791,7 +817,6 @@ const th: Translations = {
   language: {
     language: "Language",
   },
-  // loginWall
   loginWall: {
     title: "Unlock Smart Tools for\nSmarter Investing!",
     description:
@@ -816,7 +841,6 @@ const th: Translations = {
       match: "Your passwords don’t match",
     },
   },
-  // Top Return
   topReturn: {
     headerTable: {
       fund: "Fund",
@@ -824,7 +848,6 @@ const th: Translations = {
       netFlow: "Net Flow (1Y)",
     },
   },
-  // Create Profile
   createProfile: {
     title: "Create a profile now to get the best\ntools to invest.",
     userName: {
@@ -855,7 +878,6 @@ const th: Translations = {
         "Your profile has been created. Start exploring smart tools, tracking funds, and making informed investment decisions.",
     },
   },
-  // OTP
   otp: {
     validation: {
       incorrect: "The code was incorrect. Please try again.",
@@ -872,7 +894,6 @@ const th: Translations = {
     oneTimePasscodeSent: "One-time Passcode Sent!",
     resendCode: "Resend Code",
   },
-  // Verify Email Phone
   verifyEmailPhone: {
     title: "One Last Step to Stay Informed!",
     titleForPhone: "One Last Step to Enter!",
@@ -904,7 +925,6 @@ const th: Translations = {
       text: "Email updated!",
     },
   },
-  // login
   login: {
     title: "Welcome Back!",
     newUser: "New User?",
@@ -960,7 +980,7 @@ const th: Translations = {
       theme: "Theme",
       style: "Style",
       strategy: "Strategy",
-      hedgingPolicy: "Hedging Policy",
+      hedgingPolicy: "นโยบายเฮดจิ้ง",
       dividend: "Dividend",
     },
     cardBack: {
@@ -989,9 +1009,9 @@ const th: Translations = {
     },
   },
   performancePeriod: {
-    period: "Trailing Performance (Period)",
-    annualized: "Trailing Performance (Annualized)",
-    calendar: "Calendar Year Return",
+    period: "ผลตอบแทนรวม (ตามช่วงเวลา)",
+    annualized: "ผลตอบแทนรวม (เฉลี่ยต่อปี)",
+    calendar: "ผลตอบแทนรายปี",
   },
   sortCollectionBy: {
     title: "Sort Collection By",
@@ -1048,7 +1068,6 @@ const th: Translations = {
   },
   accountChangeFirstLastName: {
     firstLastName: "First & Last Name",
-
     input: {
       firstName: "First Name",
       lastName: "Last Name",
@@ -1092,8 +1111,8 @@ const th: Translations = {
         title: "Are you sure you want to delete your account?",
         detail:
           "Deleting your account is permanent and cannot be undone. All your data will be lost.",
-        cancel: "Cancel",
-        delete: "Delete",
+        cancel: "ยกเลิก",
+        delete: "ลบ",
       },
       toast: {
         accountDeleted: "Account Deleted.",
@@ -1172,29 +1191,30 @@ const th: Translations = {
   CompareSelect: {
     title: "Select to Compare",
     button: {
-      cancel: "Cancel",
-      compare: "Compare",
-      battle: "Fund Battle",
+      cancel: "ยกเลิก",
+      compare: "เปรียบเทียบ",
+      battle: "เริ่มได้!",
     },
   },
   CompareList: {
     compareItem: {
-      zero: "Compare {{count}} items`",
-      one: "Compare {{count}} item",
-      other: "Compare {{count}} items",
+      zero: "เปรียบเทียบ {{count}} กองทุน`",
+      one: "เปรียบเทียบ {{count}} กองทุน",
+      other: "เปรียบเทียบ {{count}} กองทุน",
     },
-    change: "Change",
-    addFund: "Add Fund",
+    change: "เปลี่ยน",
+    addFund: "เพิ่มกองทุน",
+    item: "กองทุน",
     toast: {
-      added: "Fund added.",
-      deleted: "Fund deleted.",
-      duplicated: "Fund code is duplicated.",
+      added: "เพิ่มกองทุนแล้ว",
+      deleted: "ลบกองทุนสำเร็จ",
+      duplicated: "กองทุนนี้ถูกเพิ่มไปแล้ว",
     },
   },
   CompareListEdit: {
     button: {
-      selectAll: "Select All",
-      clearAll: "Clear All",
+      selectAll: "เลือกทั้งหมด",
+      clearAll: "ล้างทั้งหมด",
     },
   },
   CompareGraph: {
@@ -1256,31 +1276,31 @@ const th: Translations = {
       },
     },
     toolsSection: {
-      header: "Tools",
+      header: "เครื่องมือ",
       priceAlerts: {
-        label: "Price Alerts",
+        label: "แจ้งเตือนราคา",
       },
       watchlist: {
-        label: "Watchlist",
+        label: "รายการติดตาม",
       },
       priceUpdates: {
-        label: "Price Updates",
+        label: "อัปเดตราคา",
         detail:
-          "We’ll notify you of any NAV/Unit updates for your watchlisted funds",
+          "เราจะแจ้งให้คุณทราบถึงการอัปเดต NAV/หน่วย ของกองทุนที่คุณติดตาม",
       },
       newHighsAndLows: {
-        label: "New Highs and Lows",
+        label: "จุดสูงสุดและจุดต่ำสุดใหม่ของราคา",
         detail:
-          "Stay updated on all-time and 52-week highs and lows at a glance",
+          "อัปเดตเมื่อราคากองทุนทำจุดสูงสุดและจุดต่ำสุดใหม่ในทุกช่วงเวลาที่เคยมีมา และในรอบ 52 สัปดาห์ล่าสุดอย่างรวดเร็ว",
       },
       significantPriceChange: {
-        label: "Significant Price Change",
+        label: "การเปลี่ยนแปลงราคาอย่างมีนัยสำคัญ",
       },
       fundPromotions: {
-        label: "Fund Promotions",
+        label: "โปรโมชันกองทุน",
       },
       announcementsUpdates: {
-        label: "Announcements Updates",
+        label: "อัปเดตประกาศ",
       },
     },
     othersSection: {
@@ -1291,8 +1311,10 @@ const th: Translations = {
     },
   },
   WatchlistSettings: {
-    title: "Watchlist Settings",
-    allNotificationTopics: { label: "All Notification Topics" },
+    title: "การตั้งค่าการติดตาม",
+    allNotificationTopics: {
+      label: "การแจ้งเตือนทั้งหมด",
+    },
   },
   PortComplete: {
     title: "Port Complete!",
@@ -1313,7 +1335,8 @@ const th: Translations = {
     buttonNotify: "Notify Me",
     banner: {
       title: "Win Big Cash!",
-      detail: `Enter now for your chance to win\nexciting prizes up to 200,000 baht!!`,
+      detail:
+        "Enter now for your chance to win\nexciting prizes up to 200,000 baht!!",
     },
     weeklyBanner: {
       title: "{{round}} Chance!",
@@ -1322,23 +1345,22 @@ const th: Translations = {
     },
     beating: {
       description:
-        "Goal: Beat inflation (0.30%) and play amongst yourselves to be the best portfolio manager",
+        "Goal: Beat inflation (0.25%) and play amongst yourselves to be the best portfolio manager",
       detail: "Details",
-      header: "Fantasy Season {{number}}",
       deadLine: "Deadline in:",
       end: "End: {{date}}",
     },
     seasonCard: {
       beatingInflation: "You're beating inflation!",
       rankDetail: "You're in the {{rankNumber}}{{rankSuffix}} Place!",
-      target: "Target {{amount}}",
+      targetPercent: "Target {{amount}}",
     },
     button: {
       createPort: "Create Your Port",
       yourPort: "Your Port",
       confirmPort: "Confirm Port",
       mange: "Manage",
-      save: "Save",
+      save: "บันทึก",
       randomPick: "Random Pick",
     },
     stats: {
@@ -1358,6 +1380,21 @@ const th: Translations = {
         "Your adjustments haven’t been saved. Going back will cancel them.",
       back: "Go Back",
       stay: "Stay",
+    },
+    totalAssetsAndyourBestFighter: {
+      urBestFighter: "Your Best Fighter",
+      urBestFighterDesc: "Since the start, {{fundCode}} has given you a",
+      totalAssets: "Total Assets",
+      totalReturn: "Total Return",
+      totalReturnWithUnit: "{{number}} FND ",
+      decimalWithUnit: ".{{decimal}} FND",
+      return: "Return",
+    },
+    yourRanking: {
+      title: "Your Ranking",
+      leaderBoard: "Leaderboard",
+      rank: "Rank",
+      completed: "Completed",
     },
     toast: {
       noMatch: "Can’t add fund: asset type doesn’t match",
@@ -1384,7 +1421,28 @@ const th: Translations = {
     theme: "Theme",
     character: "Character",
     rankFund: "Rank Fund",
+    streakCount: "Streak Count",
+    return: "Return",
   },
+  bottomSheetFeeInfo: {
+    header: "ค่าธรรมเนียมกองทุน",
+    howFeeCollected: "ค่าธรรมเนียมจัดเก็บอย่างไร?",
+    content1: "ค่าธรรมเนียมกองทุนมีอยู่ 2 ประเภท ได้แก่: ",
+    content2: "ค่าธรรมเนียมที่เรียกเก็บจากกองทุนรวม: ",
+    content3:
+      "เช่น ค่าธรรมเนียมการจัดการ ค่าธรรมเนียมผู้ดูแลผลประโยชน์ ค่าธรรมเนียมนายทะเบียน และอื่น ๆ",
+    content4:
+      "โดยจะแสดงเป็นอัตราร้อยละของมูลค่ากองทุนในแต่ละปี คุณจะไม่ได้จ่ายค่าธรรมเนียมเหล่านี้โดยตรง แต่จะถูกหักจากผลตอบแทนของกองทุนโดยอัตโนมัติ",
+    content5: "ค่าธรรมเนียมที่เรียกเก็บจากผู้ถือหน่วย: ",
+    content6:
+      "ค่าธรรมเนียมที่เรียกเก็บจากผู้ถือหน่วยรายครั้ง เมื่อทำธุรกรรม ซื้อ ขาย และ/หรือ สับเปลี่ยนกองทุนรวม",
+  },
+  bottomSheetAssetAllocation: {
+    header: "สัดส่วนการลงทุนอาจเกิน 100%",
+    content:
+      "อาจมาจากการปัดทศนิยม มีรายการค้างรับ/ค้างจ่าย หรือหนี้สินอื่นๆ รวมถึงมีการใช้ตราสาร อนุพันธ์ หรืออนุพันธ์ในการลงทุน",
+  },
+
   about: {
     header: "About",
     privacyPolicy: "Privacy Policy",
@@ -1392,4 +1450,5 @@ const th: Translations = {
     versionApp: "Version {{version}}",
   },
 };
+
 export default th;

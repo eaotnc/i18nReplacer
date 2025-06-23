@@ -9,7 +9,7 @@ import en from "./en";
 type AnyObject = { [key: string]: any };
 
 // --- Step 1: Parse CSV ---
-const csvText = fs.readFileSync("translations.csv", "utf8");
+const csvText = fs.readFileSync("translations-all.csv", "utf8");
 const parsed = Papa.parse(csvText, {
   header: true,
   skipEmptyLines: true,
