@@ -16,6 +16,8 @@ const en = {
     source: "Source",
     updatedOn: "Updated on",
     days: "Days",
+    thbUnit: "THB/Unit",
+    more: "More",
     item: {
       zero: "items",
       one: "item",
@@ -35,6 +37,7 @@ const en = {
     period: {
       "1M": "1M",
     },
+    chartNodata: "NAV Line chart is not yet available for this fund.",
   },
   error: {
     toast: {
@@ -177,6 +180,7 @@ const en = {
     placeholderSearch: "Search Funds, Allocated Stocks, Investment Themes.",
     discoverFunds: "Discover Funds",
     topPerformingCategories: "Top Performing Categories",
+    exploreByStocks: "Explore by Stocks",
     PersonalQuiz: {
       skipForNow: "Skip for now",
       completeQuiz: "Complete Quiz",
@@ -186,6 +190,8 @@ const en = {
       letsGo: "Let’s go!",
       chooseMoreThanOne: "You can choose more than one",
       calibratingYourResults: "Calibrating your results",
+      findingYourMatches: "Finding your matches",
+      preparingYourCollection: "Preparing your collection",
     },
   },
   FundHome: {
@@ -488,8 +494,8 @@ const en = {
     button: {
       viewTotalReturn: "View: Total Return",
       viewAnnualized: "View: Annualized Total Return",
-      viewNetFlow: "View : Net Flow",
-      viewAllocated: "View : Percent Allocated",
+      viewNetFlow: "View: Net Flow",
+      viewAllocated: "View: Percent Allocated",
       topTotalReturn: "Top Total Return",
       topNetFlow: "Top Net Flow",
     },
@@ -950,6 +956,7 @@ const en = {
     error: "Incorrect username or password. Please Try again.",
   },
   FundSwipe: {
+    shareWith: "Share with",
     tutorial: {
       step1: {
         title: "Swipe Up to Explore!",
@@ -1408,6 +1415,15 @@ const en = {
       noMatch: "Can’t add fund: asset type doesn’t match",
     },
   },
+  leaderboard: {
+    number1: "1st",
+    number2: "2nd",
+    number3: "3rd",
+    rank: "Rank",
+    player: "Player",
+    return: "Return",
+    pending: "Pending",
+  },
   fantasyStat: {
     header: {
       mostPicked: "Most Picked",
@@ -1450,7 +1466,19 @@ const en = {
     content:
       "This may be due to rounding, accrued receivables/payables, other liabilities, or the use of derivatives in investment.",
   },
-
+  profileRadar: {
+    return: "Return",
+    preservation: "Preservation",
+    transactionFee: "Transaction Fee",
+    risk: "Risk",
+    returnRisk: "Return/Risk",
+  },
+  ipo: {
+    topHolding: "Top Holdings",
+    ipo: "IPO",
+    min: "Min",
+    expectedReturn: "Expected Return (p.a.)",
+  },
   about: {
     header: "About",
     privacyPolicy: "Privacy Policy",

@@ -16,6 +16,8 @@ const th: Translations = {
     source: "ที่มา",
     updatedOn: "ข้อมูล ณ",
     days: "วัน",
+    thbUnit: "THB/หน่วย",
+    more: "ดูเพิ่มเติม",
     item: {
       zero: "รายการ",
       one: "รายการ",
@@ -35,6 +37,7 @@ const th: Translations = {
     period: {
       "1M": "1M",
     },
+    chartNodata: "ยังไม่มีกราฟราคาสำหรับกองทุนนี้",
   },
   error: {
     toast: {
@@ -172,18 +175,21 @@ const th: Translations = {
   },
   Discover: {
     fundList: "กองทุน",
-    placeholderSearch: "Search Funds, Allocated Stocks, Investment Themes.",
+    placeholderSearch: "ค้นหากองทุน, หุ้นที่กองทุนถืออยู่, ธีมการลงทุน..",
     discoverFunds: "กองทุนที่น่าสนใจ",
     topPerformingCategories: "ธีมกองทุนที่กำลังมาแรง",
+    exploreByStocks: "ค้นหากองทุนจากหุ้นที่สนใจ",
     PersonalQuiz: {
       skipForNow: "ข้ามไปก่อน",
       completeQuiz: "ทำแบบสอบถามเสร็จแล้ว",
       titleIntro: "ปรับแต่งฟีเจอร์ “ค้นหากองทุน” ให้ตรงใจคุณ",
       subTitleIntro:
-        "A quick personality quiz helps us fine-tune fund collections to match your style.",
-      letsGo: "Let’s go!",
+        "แบบสอบถามสั้น ๆ เพื่อช่วยแนะนำกองทุนให้ตรงสไตล์การลงทุนของคุณมากที่สุด",
+      letsGo: "ไปกันเลย!",
       chooseMoreThanOne: "เลือกได้มากกว่าหนึ่งอย่าง",
-      calibratingYourResults: "Calibrating your results",
+      calibratingYourResults: "กำลังวิเคราะห์ผลลัพธ์ของคุณ",
+      findingYourMatches: "กำลังค้นหากองทุนที่ตรงกับสไตล์ของคุณ",
+      preparingYourCollection: "กำลังเตรียมกองทุนที่ใช่สำหรับคุณ",
     },
   },
   FundHome: {
@@ -224,7 +230,7 @@ const th: Translations = {
     },
   },
   FundSearchScreen: {
-    textSearchButtonPlaceholder: "Try searching for “NVDA”",
+    textSearchButtonPlaceholder: 'ลองค้นหาคำว่า "NVDA"',
     textOtherStockSearchButtonPlaceholder: "ค้นหาชื่อหรือรหัสหุ้น",
     textSearchPlaceholder: "ค้นหา",
     recentlySearch: "การค้นหาล่าสุด",
@@ -233,7 +239,7 @@ const th: Translations = {
     less: "ดูน้อยลง",
     searchNotFound: "ไม่พบผลลัพธ์การค้นหา กรุณาลองใหม่อีกครั้ง",
     searchNotFoundDetail:
-      "It looks like we couldn't find what you're \nsearching for. Please try a different search term",
+      "ดูเหมือนว่าเราไม่พบสิ่งที่คุณกำลังค้นหา\n โปรดลองใช้คำค้นหาอื่น",
     tryAgain: "กรุณาลองใหม่อีกครั้ง",
     noInternet: "ไม่มีสัญญาณอินเทอร์เน็ต",
     pleaseCheckInternet: "กรุณาตรวจสอบสัญญาณอินเทอร์เน็ตอีกครั้ง",
@@ -487,8 +493,8 @@ const th: Translations = {
     button: {
       viewTotalReturn: "ดู: ผลตอบแทนรวม",
       viewAnnualized: "ดู: ผลตอบแทนรวมต่อปี",
-      viewNetFlow: "View : Net Flow",
-      viewAllocated: "View : Percent Allocated",
+      viewNetFlow: "ดู: เงินลงทุนสุทธิ",
+      viewAllocated: "ดู: สัดส่วนการลงทุน",
       topTotalReturn: "กองทุนที่ให้ผลตอบแทนสูงสุด",
       topNetFlow: "กองทุนที่มีเงินลงทุนสุทธิมากที่สุด",
     },
@@ -518,7 +524,7 @@ const th: Translations = {
     tag: {
       ALLOCATED_STOCK: "หุ้น",
       MASTER_FUND: "กองทุนหลัก",
-      FILTER: "Filter",
+      FILTER: "ตัวกรอง",
     },
   },
   banner: {
@@ -535,7 +541,7 @@ const th: Translations = {
     perYear: "*Per Year",
     options: {
       createPriceAlert: "สร้างการแจ้งเตือนราคา",
-      managePriceAlert: "Manage Price Alerts",
+      managePriceAlert: "จัดการแจ้งเตือนราคา",
     },
     button: {
       addToWatchlist: "เพิ่มเข้ารายการติดตาม",
@@ -711,7 +717,7 @@ const th: Translations = {
       topHoldings: "สินทรัพย์หลักที่ลงทุน",
       dividend: "ประวัติการจ่ายเงินปันผล",
       settlementDay: "T+{{days}}",
-      days: "Days",
+      days: "วัน",
       transactionConditions: "เงื่อนไขการทำรายการ",
       minimumBuy: "ยอดลงทุนขั้นต่ำ",
       minimumSell: "การขายคืนหน่วยขั้นต่ำ",
@@ -937,11 +943,12 @@ const th: Translations = {
     error: "Incorrect username or password. Please Try again.",
   },
   FundSwipe: {
+    shareWith: "แชร์โดย",
     tutorial: {
       step1: {
         title: "ปัดขึ้นเพื่อดูเพิ่มเติม!",
         description:
-          "See what’s inside this collection. Swipe up to view your first fund card.",
+          "มาดูกันว่าการ์ดกองทุนใบแรกจะเป็นอะไร — ปัดขึ้นแล้วเริ่มได้เลย!",
       },
       step2: {
         title: "Tap to Flip & Learn More",
@@ -986,12 +993,11 @@ const th: Translations = {
       fundSummary: "สรุปข้อมูลกองทุน",
     },
     bottomSheetDislike: {
-      modalTitle: "Why didn’t you like this summary?",
+      modalTitle: "ทำไมถึงไม่ชอบสรุปนี้?",
       tellUsMore: "ช่วยบอกเรา",
       tellUsMoreTitle: "เราสามารถทำอะไรให้ดีขึ้นเพื่อคุณได้บ้าง?",
-      tellUsMoreReasonPlaceholder:
-        "Tell us the reason you didn’t like the AI Summary...",
-      unhelpful: "Unhelpful / Not relevant",
+      tellUsMoreReasonPlaceholder: "ช่วยบอกเหตุผลที่คุณไม่ชอบ AI Summary",
+      unhelpful: "ไม่มีประโยชน์/ ไม่เกี่ยวข้อง",
       incorrectSummary: "ข้อมูลไม่ถูกต้อง",
     },
     toast: {
@@ -1397,6 +1403,15 @@ const th: Translations = {
       noMatch: "Can’t add fund: asset type doesn’t match",
     },
   },
+  leaderboard: {
+    number1: "1st",
+    number2: "2nd",
+    number3: "3rd",
+    rank: "Rank",
+    player: "Player",
+    return: "Return",
+    pending: "Pending",
+  },
   fantasyStat: {
     header: {
       mostPicked: "Most Picked",
@@ -1437,7 +1452,20 @@ const th: Translations = {
   bottomSheetAssetAllocation: {
     header: "สัดส่วนการลงทุนอาจเกิน 100%",
     content:
-      "อาจมาจากการปัดทศนิยม มีรายการค้างรับ/\nค้างจ่าย หรือหนี้สินอื่นๆ รวมถึงมีการใช้ตราสาร อนุพันธ์ หรืออนุพันธ์ในการลงทุน",
+      "อาจมาจากการปัดทศนิยม มีรายการค้างรับ/\r\nค้างจ่าย หรือหนี้สินอื่นๆ รวมถึงมีการใช้ตราสาร อนุพันธ์ หรืออนุพันธ์ในการลงทุน",
+  },
+  profileRadar: {
+    return: "Return",
+    preservation: "การรักษาเงินต้น",
+    transactionFee: "ค่าธรรมเนียมการทำธุรกรรม",
+    risk: "ความเสี่ยง",
+    returnRisk: "ผลตอบแทน/ความเสี่ยง",
+  },
+  ipo: {
+    topHolding: "สินทรัพย์หลักที่ลงทุน",
+    ipo: "IPO",
+    min: "เงินลงทุนขั้นต่ำ",
+    expectedReturn: "ผลตอบแทนที่คาดหวัง (ต่อปี)",
   },
   about: {
     header: "About",
