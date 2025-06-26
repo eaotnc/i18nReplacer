@@ -2,24 +2,31 @@ import { Translations } from "./en";
 
 const th: Translations = {
   common: {
-    ok: "OK!",
-    cancel: "ยกเลิก",
-    back: "Back",
-    logOut: "Log Out",
-    filter: "Filter",
-    none: "ไม่กำหนด",
-    multiple: "Multiple",
-    undo: "Undo",
-    save: "บันทึก",
-    delete: "ลบ",
-    graph: "กราฟ",
-    table: "ตาราง",
+    annualized: "เฉลี่ยต่อปี",
     asOf: "ข้อมูล ณ",
-    source: "ที่มา",
-    updatedOn: "ข้อมูล ณ",
+    back: "Back",
+    cancel: "ยกเลิก",
+    clear: "ล้าง",
     days: "วัน",
-    thbUnit: "THB/หน่วย",
+    delete: "ลบ",
+    done: "เรียบร้อย",
+    filter: "Filter",
+    filters: "ตัวกรอง",
+    graph: "กราฟ",
+    logOut: "Log Out",
     more: "ดูเพิ่มเติม",
+    multiple: "Multiple",
+    new: "ใหม่",
+    none: "ไม่กำหนด",
+    ok: "OK!",
+    periodTab: "ตามช่วงเวลา",
+    save: "บันทึก",
+    source: "ที่มา",
+    table: "ตาราง",
+    thbUnit: "THB/หน่วย",
+    total: "ทั้งหมด",
+    undo: "Undo",
+    updatedOn: "ข้อมูล ณ",
     item: {
       zero: "รายการ",
       one: "รายการ",
@@ -509,7 +516,7 @@ const th: Translations = {
       viewNetFlow: "ดู: เงินลงทุนสุทธิ",
       viewAllocated: "ดู: สัดส่วนการลงทุน",
       topTotalReturn: "กองทุนที่ให้ผลตอบแทนสูงสุด",
-      topNetFlow: "กองทุนที่มีเงินลงทุนสุทธิมากที่สุด",
+      topNetFlow: "กองทุนที่มีเงินลงทุนสุทธิสูงสุด",
     },
     title: "เลือกดูกองทุนตาม",
     options: {
@@ -537,16 +544,21 @@ const th: Translations = {
   toolsButton: {
     compare: "เปรียบเทียบ",
     priceAlert: "แจ้งเตือน",
-    watchlist: "รายการติดตาม",
+    watchlist: "ติดตาม",
   },
   fundInfo: {
-    actualValue: "*Actual Value",
-    perYear: "*Per Year",
+    info: "ข้อมูล",
+    lineChart: "กราฟราคา",
+    performanceMatrix: "ผลตอบแทน/ความเสี่ยง",
+    actualValue: "*ค่าตามจริง",
+    perYear: "*ต่อปี",
+    trailinNotAvailable: "ยังไม่มีข้อมูลผลตอบแทนรวมสำหรับกองทุนนี้",
     options: {
       createPriceAlert: "สร้างการแจ้งเตือนราคา",
       managePriceAlert: "จัดการแจ้งเตือนราคา",
     },
     button: {
+      addToCompare: "เพิ่มกองทุนเพื่อเปรียบเทียบ",
       addToWatchlist: "เพิ่มเข้ารายการติดตาม",
       removeFromWatchlist: "ลบจากรายการติดตาม",
     },
@@ -574,9 +586,11 @@ const th: Translations = {
     },
     fundAssetAllocation: {
       assetAllocation: "สัดส่วนการลงทุน",
+      noAssetAllocation: "ยังไม่มีข้อมูลสัดส่วนการลงทุนสำหรับ\nกองทุนนี้",
     },
     fundTopHolding: {
       topHolding: "สินทรัพย์หลักที่ลงทุน",
+      noData: "ยังไม่มีข้อมูลสินทรัพย์หลักที่ลงทุนสำหรับ\nกองทุนนี้",
     },
     fundDividend: {
       dividendHistory: "ประวัติการจ่ายเงินปันผล",
@@ -592,6 +606,7 @@ const th: Translations = {
       peer: "Peers",
       fund: "Fund",
       transactionFee: "ค่าธรรมเนียมการทำรายการ",
+      peerAverage: "ค่าเฉลี่ยของกลุ่มเทียบเคียง",
       frontEnd: "การขายหน่วยลงทุน",
       backEnd: "การรับซื้อคืนหน่วยลงทุน",
       switchingOut: "การสับเปลี่ยนหน่วยลงทุนออก",
@@ -611,10 +626,12 @@ const th: Translations = {
       settlementDay: "ระยะเวลารับเงินค่าขายคืน",
     },
     announcements: {
+      title: "ประกาศ",
+
       emptyAnnoucements: {
         title: "ยังไม่มีข่าวสาร",
         detail:
-          "Stay tuned! Check back later or add this\nfund to your watchlist to get updates.",
+          "คอยติดตามไว้เลย! เพิ่มกองทุนลงในรายการติดตามของคุณหรือตรวจสอบอีกครั้งในภายหลังเมื่อมีการอัปเดต",
       },
     },
     bottomSheet: {
@@ -640,6 +657,8 @@ const th: Translations = {
   },
   watchlist: {
     title: "รายการติดตาม",
+    removedFromWatchlist: "เพิ่มเข้ารายการติดตามแล้ว",
+    addedToWatchlist: "ลบออกจากรายการติดตามแล้ว",
     buttonOptions: {
       edit: "แก้ไข",
       settings: "ตั้งค่า",
@@ -647,12 +666,12 @@ const th: Translations = {
     emptyList: {
       title: "ถึงเวลาสร้างรายการติดตามของคุณแล้ว",
       detail:
-        "เริ่มเพิ่มกองทุนที่คุณสนใจ\nและติดตามผลการดำเนินการของกองทุนนั้น.",
+        "เริ่มเพิ่มกองทุนที่คุณสนใจ\nและติดตามผลการดำเนินการของกองทุนนั้น",
     },
     emptyNews: {
       title: "ยังไม่มีข่าวสาร",
       detail:
-        "เริ่มเพิ่มกองทุนที่คุณสนใจ\nและติดตามผลการดำเนินการของกองทุนนั้น.",
+        "เริ่มเพิ่มกองทุนที่คุณสนใจ\nและติดตามผลการดำเนินการของกองทุนนั้น",
     },
     button: {
       addfund: "เพิ่มกองทุน",
@@ -672,7 +691,7 @@ const th: Translations = {
     },
   },
   priceAlert: {
-    title: "แจ้งเตือน",
+    title: "แจ้งเตือนราคา",
     nav: "NAV/หน่วย",
     fundCode: "กองทุน",
     current: "ราคาปัจจุบัน",
@@ -849,9 +868,9 @@ const th: Translations = {
   },
   topReturn: {
     headerTable: {
-      fund: "Fund",
-      totalReturn: "ผลตอบแทน (1Y)",
-      netFlow: "เงินลงทุนสุทธิ (1Y)",
+      fund: "กองทุน",
+      totalReturn: "ผลตอบแทน (1 ปี)",
+      netFlow: "เงินลงทุนสุทธิ (1 ปี)",
     },
   },
   createProfile: {
@@ -946,7 +965,7 @@ const th: Translations = {
     error: "Incorrect username or password. Please Try again.",
   },
   FundSwipe: {
-    shareWith: "แชร์กับ",
+    shareWith: "แชร์โดย",
     tutorial: {
       step1: {
         title: "ปัดขึ้นเพื่อดูเพิ่มเติม!",
@@ -954,29 +973,26 @@ const th: Translations = {
           "มาดูกันว่าการ์ดกองทุนใบแรกจะเป็นอะไร — ปัดขึ้นแล้วเริ่มได้เลย!",
       },
       step2: {
-        title: "Tap to Flip & Learn More",
-        description:
-          "Want details? Tap the card to flip it and see more fund insights.",
+        title: "แตะเพื่อพลิกดูข้อมูลเพิ่มเติม!",
+        description: "แตะที่การ์ดเพื่อดูข้อมูลเชิงลึกของกองทุน!",
       },
       step3: {
-        title: "Swipe Up or Down to Browse Cards",
-        description:
-          "Looking for the right fund? Swipe up or down to explore different fund cards in this collection.",
+        title: "ปัดขึ้นหรือลงเพื่อเลื่อนดูการ์ดกองทุน",
+        description: "ปัดขึ้นหรือลงเพื่อสำรวจการ์ดกองทุนในคอลเลกชันนี้ได้เลย!",
       },
       step4: {
-        title: "Swipe Left for a New Collection",
+        title: "ปัดซ้าย ดูคอลเลกชันถัดไป!",
         description:
-          "Swipe left to jump to the next collection and discover more fund options.",
+          "ปัดซ้ายเพื่อข้ามไปยังคอลเลกชันถัดไป แล้วค้นหากองทุนตัวเลือกใหม่ ๆ!",
       },
       step5: {
-        title: "Double Tap to Save and Add to Your Collection!",
+        title: "แตะสองที เพื่อบันทึกและเก็บไว้ในคอลเลกชันของคุณ!",
         description:
-          "Double tap any fund card to add it to your personal collection in the 'Me' tab.",
+          "แตะการ์ดกองทุนสองที เพื่อเก็บเข้าคอลเลกชันส่วนตัวของคุณในแท็บ ‘Me’",
       },
       step6: {
-        title: "This Fund is Now in Your Collection!",
-        description:
-          "This fund is saved! You can find it anytime in the 'Me' tab.",
+        title: "เพิ่มเข้าคอลเลกชันเรียบร้อย!",
+        description: "กองนี้ถูกเก็บไว้แล้ว! ไปดูได้ที่แท็บ ‘Me’",
       },
     },
     cover: {
@@ -997,7 +1013,7 @@ const th: Translations = {
     },
     bottomSheetDislike: {
       modalTitle: "ทำไมถึงไม่ชอบสรุปนี้?",
-      tellUsMore: "ช่วยบอกเรา",
+      tellUsMore: "ช่วยบอกเราเพิ่มหน่อย",
       tellUsMoreTitle: "เราสามารถทำอะไรให้ดีขึ้นเพื่อคุณได้บ้าง?",
       tellUsMoreReasonPlaceholder: "ช่วยบอกเหตุผลที่คุณไม่ชอบ AI Summary",
       unhelpful: "ไม่มีประโยชน์/ ไม่เกี่ยวข้อง",
@@ -1008,7 +1024,8 @@ const th: Translations = {
       feedbackSuccess:
         "ขอบคุณที่ช่วยเราพัฒนา! ความคิดเห็นของคุณมีความสำคัญสำหรับเรามาก",
       cardDeletedFromMyCollection: "Card deleted from ‘My Collection’.",
-      reachCollectionLimit: "คุณมีกองทุนเกินกว่าที่กำหนด 100 กองทุนแล้ว",
+      reachCollectionLimit:
+        "คุณได้เพิ่มการ์ดกองทุนครบจำนวนสูงสุด 100 การ์ดแล้ว",
       imageSavedSuccessFully: "บันทึกรูปภาพ สำเร็จแล้ว",
       linkCopied: "คัดลอกลิงก์ สำเร็จแล้ว",
       imageSavedFailed: "บันทึกรูปภาพ ไม่สำเร็จ",
@@ -1018,6 +1035,7 @@ const th: Translations = {
     period: "ผลตอบแทนรวม (ตามช่วงเวลา)",
     annualized: "ผลตอบแทนรวม (เฉลี่ยต่อปี)",
     calendar: "ผลตอบแทนรายปี",
+    calendarNoData: "ยังไม่มีข้อมูลผลตอบแทนรายปีสำหรับ\nกองทุนนี้",
   },
   sortCollectionBy: {
     title: "Sort Collection By",
@@ -1287,7 +1305,7 @@ const th: Translations = {
         label: "แจ้งเตือนราคา",
       },
       watchlist: {
-        label: "รายการติดตาม",
+        label: "ติดตาม",
       },
       priceUpdates: {
         label: "อัปเดตราคา",
@@ -1401,6 +1419,12 @@ const th: Translations = {
       leaderBoard: "Leaderboard",
       rank: "Rank",
       completed: "Completed",
+    },
+    newJoiner: {
+      noRankingYet: "No Rankings Yet.",
+      noRankingDescription:
+        "We’ll start the rankings when this challenge starts. Check in later",
+      newComerTitle: "This Challenge’s Newcomers",
     },
     toast: {
       noMatch: "Can’t add fund: asset type doesn’t match",

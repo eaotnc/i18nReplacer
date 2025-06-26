@@ -1,23 +1,30 @@
 const en = {
   common: {
-    ok: "OK!",
-    cancel: "Cancel",
-    back: "Back",
-    logOut: "Log Out",
-    filter: "Filter",
-    none: "None",
-    multiple: "Multiple",
-    undo: "Undo",
-    save: "Save",
-    delete: "Delete",
-    graph: "Graph",
-    table: "Table",
+    annualized: "Annualized",
     asOf: "As of",
-    source: "Source",
-    updatedOn: "Updated on",
+    back: "Back",
+    cancel: "Cancel",
+    clear: "Clear",
     days: "Days",
-    thbUnit: "THB/Unit",
+    delete: "Delete",
+    done: "done",
+    filter: "Filter",
+    filters: "Filters",
+    graph: "Graph",
+    logOut: "Log Out",
     more: "More",
+    multiple: "Multiple",
+    new: "New",
+    none: "None",
+    ok: "OK!",
+    periodTab: "Period",
+    save: "Save",
+    source: "Source",
+    table: "Table",
+    thbUnit: "THB/Unit",
+    total: "Total",
+    undo: "Undo",
+    updatedOn: "Updated on",
     item: {
       zero: "items",
       one: "item",
@@ -539,13 +546,19 @@ const en = {
     watchlist: "Watchlist",
   },
   fundInfo: {
+    info: "Info",
+    lineChart: "Line Chart",
+    performanceMatrix: "Performance Matrix",
     actualValue: "*Actual Value",
     perYear: "*Per Year",
+    trailinNotAvailable:
+      "Trailing Total Return is not yet available for this fund.",
     options: {
       createPriceAlert: "Create Price Alert",
       managePriceAlert: "Manage Price Alerts",
     },
     button: {
+      addToCompare: "Add to Compare",
       addToWatchlist: "Add to Watchlist",
       removeFromWatchlist: "Remove from Watchlist",
     },
@@ -573,10 +586,12 @@ const en = {
     },
     fundAssetAllocation: {
       assetAllocation: "Asset Allocation",
+      noAssetAllocation: "Asset Allocation is not yet available for\nthis fund",
     },
 
     fundTopHolding: {
       topHolding: "Top Holdings",
+      noData: "Top Holdings is not yet available for\nthis fund",
     },
     fundDividend: {
       dividendHistory: "Dividend History",
@@ -592,6 +607,7 @@ const en = {
       peer: "Peers",
       fund: "Fund",
       transactionFee: "Transaction Fees",
+      peerAverage: "Peer Average",
       frontEnd: "Front-end",
       backEnd: "Back-end",
       switchingOut: "Switching Out",
@@ -611,6 +627,7 @@ const en = {
       settlementDay: "Settlement Day",
     },
     announcements: {
+      title: "Announcements",
       emptyAnnoucements: {
         title: "No Annoucements Yet",
         detail:
@@ -641,6 +658,8 @@ const en = {
   // Watchlist Screen
   watchlist: {
     title: "Watchlist",
+    removedFromWatchlist: "Removed from Watchlist.",
+    addedToWatchlist: "Added to Watchlist.",
     buttonOptions: {
       edit: "Edit",
       settings: "Settings",
@@ -1029,6 +1048,8 @@ const en = {
     period: "Trailing Performance (Period)",
     annualized: "Trailing Performance (Annualized)",
     calendar: "Calendar Year Return",
+    calendarNoData:
+      "Calendar Year Total Return is not yet available for\nthis fund",
   },
   sortCollectionBy: {
     title: "Sort Collection By",
@@ -1410,6 +1431,12 @@ const en = {
       leaderBoard: "Leaderboard",
       rank: "Rank",
       completed: "Completed",
+    },
+    newJoiner: {
+      noRankingYet: "No Rankings Yet.",
+      noRankingDescription:
+        "We’ll start the rankings when this challenge starts. Check in later",
+      newComerTitle: "This Challenge’s Newcomers",
     },
     toast: {
       noMatch: "Can’t add fund: asset type doesn’t match",
