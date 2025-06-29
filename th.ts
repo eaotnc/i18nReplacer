@@ -495,10 +495,10 @@ const th: Translations = {
       MinimumBuy: {
         title: "ยอดลงทุนขั้นต่ำ",
         Any: "ไม่กำหนด",
-        thb1: "≤ 1 บาท",
+        thb1: "≤ 1 THB",
         thb100: "≤ 100 THB",
         thb500: "≤ 500 THB",
-        thb1000: "≤ 1000 บาท",
+        thb1000: "≤ 1000 THB",
       },
       SettlementDate: {
         title: "ระยะเวลารับเงินค่าขายคืน",
